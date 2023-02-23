@@ -1,0 +1,11 @@
+Model Information:
+* title:	Simple Modular Roads System
+* source:	https://sketchfab.com/3d-models/simple-modular-roads-system-3c7d05fcb72541cd97fcc25f8f8dd329
+* author:	Gazi Akviran (https://sketchfab.com/akviran)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Simple Modular Roads System" (https://sketchfab.com/3d-models/simple-modular-roads-system-3c7d05fcb72541cd97fcc25f8f8dd329) by Gazi Akviran (https://sketchfab.com/akviran) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

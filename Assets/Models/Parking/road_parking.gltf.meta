@@ -1,0 +1,42 @@
+fileFormatVersion: 2
+guid: 8458cab787f03ef49b3e7b8b0d1cacd1
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: building_green2
+    second: {fileID: 2100000, guid: 601e3e560f26404488f2adf75644d247, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: building_grey.004
+    second: {fileID: 2100000, guid: f2cc3f1358e5f9c418e12ba5d51e2589, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: building_white.001
+    second: {fileID: 2100000, guid: 16131a872d3c5354aa94636030f44677, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tree_brown.002
+    second: {fileID: 2100000, guid: b2134cf8272d0e844bf2b8897ab31211, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tree_green.002
+    second: {fileID: 2100000, guid: 98a12736dacb4e649ae08a2ba105011a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tree_rock.002
+    second: {fileID: 2100000, guid: c7fd2df6e2e925541a1e8efb775c6b6d, type: 2}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: aecd2106718f2444db3ca21345da2cef, type: 3}
+  reverseAxis: 0
+  renderPipeline: 0

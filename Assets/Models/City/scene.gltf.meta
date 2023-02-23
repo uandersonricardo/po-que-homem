@@ -1,0 +1,427 @@
+fileFormatVersion: 2
+guid: 70dbd6f7b9992504e8e39ab0b8906b98
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 0103_Blue
+    second: {fileID: 2100000, guid: f81a2f516af91f249a4c32c736b8ec3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 0132_LightGray
+    second: {fileID: 2100000, guid: d30b3480cf292fe46b437f5d092750c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 0136_Charcoal1
+    second: {fileID: 2100000, guid: b4259599a76e5794490d4546bcc8d305, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 0136_Charcoal2
+    second: {fileID: 2100000, guid: 554506da0f2cf424ba775a943d9f7960, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_0001
+    second: {fileID: 2100000, guid: b977807f97951424894c2dd66cbb6572, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_003
+    second: {fileID: 2100000, guid: 27fe394f55589544db1e1820e2e4611b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_008
+    second: {fileID: 2100000, guid: e62cbc0c7edc6a143b5372b8f8316bc4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_A011
+    second: {fileID: 2100000, guid: 7808ef449b504694fb96bc28b9e20c33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_A013
+    second: {fileID: 2100000, guid: 7a6ea5bc256ebfe4f8757df59cf18247, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_A014
+    second: {fileID: 2100000, guid: ed4be2cd6c7cb9a4086d99d0f43317fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_A03
+    second: {fileID: 2100000, guid: 04dc12bc4eb0c5b4e824aa319a93da29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_D02
+    second: {fileID: 2100000, guid: 9bb650b9fd37b8c4c805012ad6c44b41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_G07
+    second: {fileID: 2100000, guid: 898025c7e55cfa64da0251593af8c136, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_G07_43
+    second: {fileID: 2100000, guid: 0b942bc313d25364dbb4fa853788273d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_M05
+    second: {fileID: 2100000, guid: de085517b9cd4e04a8bb22c6bfad94d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_M06
+    second: {fileID: 2100000, guid: ea55eaf731129594daf5e37c052d9f67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grass_Dark_Green
+    second: {fileID: 2100000, guid: 5e1785b41e017fa409a9566ad8d3c371, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Green
+    second: {fileID: 2100000, guid: c7e42ee26d603c349877422f2f81d52e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 2c7981560d9700d4dbffbf3fe41a30ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: e836fac27a57929439cd5d19b3aed7df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.1
+    second: {fileID: 2100000, guid: af514e37ce0216346abba6b8835bd9c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.2
+    second: {fileID: 2100000, guid: 04b0bfeb976950a46ba391c8c4679699, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.3
+    second: {fileID: 2100000, guid: a978a6977f41b2a46be4a5df5522bde2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.4
+    second: {fileID: 2100000, guid: 8a1f72c0006162f4eadd19d8dab628fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.5
+    second: {fileID: 2100000, guid: c23868bfbd0ecc04b9ee1208e697debb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__UNIGLTF__DUPLICATED__2
+    second: {fileID: 2100000, guid: 5753b1348a4df8143a6dfde7bc3e8d71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Rough
+    second: {fileID: 2100000, guid: 106fe62e4c8c02a4bb5862ad0c113f12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Path
+    second: {fileID: 2100000, guid: 7247cac55da1b394f93338aa75d8d673, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic_Red4
+    second: {fileID: 2100000, guid: f16d6bc513c2bc94f8bfd7e4d20e6f8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Resene_Acapulco_G71-041-171
+    second: {fileID: 2100000, guid: 1b65a7c02b35a0c4099fc4e1ad975f72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Resene_Cinnamon_O47-079-055
+    second: {fileID: 2100000, guid: 5e9c15bfb6ef3094ebea0eb4df9de086, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Resene_Dizzy_Lizzy_G76-163-1
+    second: {fileID: 2100000, guid: e329c60e955963b449fbdd5c786fbbec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Resene_Friar_Grey_Y62-010-086
+    second: {fileID: 2100000, guid: 1fd979853f9ce3343aca9b0c8f26820e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Resene_Go_Go_Go_M73-080-131
+    second: {fileID: 2100000, guid: 171e7d0f8a937794eacc4998da80500a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Resene_Jacaranda_-
+    second: {fileID: 2100000, guid: 891b470e5560e514d9f4b969e170ec06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Resene_Japanese_Maple_-
+    second: {fileID: 2100000, guid: 34916e29367a13943b192ea28d29431f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Resene_Kermit_G55-122-138
+    second: {fileID: 2100000, guid: 2e6ef1b861d2712418f9c703a51808d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Resene_Limed_Ash_-
+    second: {fileID: 2100000, guid: 7211b0d7da340a941995a7f6e2670ef4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Resene_Natural_-
+    second: {fileID: 2100000, guid: 5100ed5c73a25be44bf49e5761aa82f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Resene_Old_Copper_M45-048-056
+    second: {fileID: 2100000, guid: b1401274ecf6dab49a4f1521e2eee834, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Resene_Riverstone_-
+    second: {fileID: 2100000, guid: d338558840cadc84f893f4ac70319476, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Resene_Sepia_BR28-011-034
+    second: {fileID: 2100000, guid: cd19796640374434a92c1f228dcfbbbe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Resene_Solid_Gold_M69-066-078
+    second: {fileID: 2100000, guid: 0d50cc64cdfa69c4c9b7293992e665e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Resene_Spice_BR47-034-050
+    second: {fileID: 2100000, guid: 2c54a887d570e734b9f90d4668d70b80, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Resene_Timberland_-
+    second: {fileID: 2100000, guid: 496c480e54990fe43be05f42655ba178, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SaddleBrown
+    second: {fileID: 2100000, guid: 7c7eca0e5ae4fcc4d8cc71dce4acddcd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stacy_Shoe_Laces_Sole
+    second: {fileID: 2100000, guid: fbf2c1aff4dabd049b72c328a6526fcd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bench_wood
+    second: {fileID: 2100000, guid: 196183b190598014eb905dbdba6be577, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gaugelights
+    second: {fileID: 2100000, guid: 5d020a43d851b9c4fa685917d32b02af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: interior_lights_white
+    second: {fileID: 2100000, guid: 85abba7858b1c814296c4aaa09d75a5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material
+    second: {fileID: 2100000, guid: ca2de8c1219e2a84a91290ececb8a971, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_28
+    second: {fileID: 2100000, guid: 789843ba5d7899d409b486f88f9b1e1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: postbox
+    second: {fileID: 2100000, guid: 6c9de4066812e8c4ebac4672b4dba5c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: postbox1
+    second: {fileID: 2100000, guid: e1aee14b4f19179449f71236d7645e3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: postbox2
+    second: {fileID: 2100000, guid: 06f806f8b559ed9468c36a18e014eb43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: road
+    second: {fileID: 2100000, guid: 1d38d0bb5078bd54b8bb1ace7b70ea00, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: simple_poly_city
+    second: {fileID: 2100000, guid: 8b41a614141346441854d6a5176b45f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: simple_poly_city_1
+    second: {fileID: 2100000, guid: 5482e1e1381fe544b98659fa420022b4, type: 2}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Grass_Dark_Green_baseColor
+    second: {fileID: 2800000, guid: 2651c7d7324f2b24a89d14d7c2c11e34, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Metal_Rough_baseColor
+    second: {fileID: 2800000, guid: 0b188e4ac50e00747ac862296685058c, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Plastic_Red4_baseColor
+    second: {fileID: 2800000, guid: 384695676b062314bb40defe86b64494, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Resene_Acapulco_G71-041-171_baseColor
+    second: {fileID: 2800000, guid: 1f25d8298b7fdf74d895264caaa109d2, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Resene_Cinnamon_O47-079-055_baseColor
+    second: {fileID: 2800000, guid: e551540e922a880428c5968474d671c5, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Resene_Dizzy_Lizzy_G76-163-1_baseColor
+    second: {fileID: 2800000, guid: 4728321134b795f499f348572ea57400, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Resene_Friar_Grey_Y62-010-086_baseColor
+    second: {fileID: 2800000, guid: a582d348561eba24a8191fd624acd4ed, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Resene_Go_Go_Go_M73-080-131_baseColor
+    second: {fileID: 2800000, guid: b3f803ca0961d86448f06c540ccbad52, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Resene_Jacaranda_-_baseColor
+    second: {fileID: 2800000, guid: 440c6e6fc08cfaf4e9baf39412943a73, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Resene_Japanese_Maple_-_baseColor
+    second: {fileID: 2800000, guid: f99e401d354ab1142b83b4f6c9eb3906, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Resene_Kermit_G55-122-138_baseColor
+    second: {fileID: 2800000, guid: dbc7798665c4d214c9ddc8b91b3e040f, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Resene_Limed_Ash_-_baseColor
+    second: {fileID: 2800000, guid: 629c8ec92de59a0428ab7d46cb9fa992, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Resene_Natural_-_baseColor
+    second: {fileID: 2800000, guid: 6e79b2d0c9c88fc43a764e888dc743e3, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Resene_Old_Copper_M45-048-056_baseColor
+    second: {fileID: 2800000, guid: afbf6a5d76510dc47ace6861e43d5690, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Resene_Riverstone_-_baseColor
+    second: {fileID: 2800000, guid: ead46cefc9ef5874bbeeb77d5feaaef5, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Resene_Sepia_BR28-011-034_baseColor
+    second: {fileID: 2800000, guid: 3c813a971be417649a2685df1e8903a7, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Resene_Solid_Gold_M69-066-078_baseColor
+    second: {fileID: 2800000, guid: 39c04238f3f0c0f4593f079baa1f4a1a, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Resene_Spice_BR47-034-050_baseColor
+    second: {fileID: 2800000, guid: 3c89cc4467879504a9d1838413f46d4f, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Resene_Timberland_-_baseColor
+    second: {fileID: 2800000, guid: 14613592c303aa142bcb715a4050806b, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: bench_wood_baseColor
+    second: {fileID: 2800000, guid: 0caae630ae9fb934b9dced602be36110, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: postbox1_baseColor
+    second: {fileID: 2800000, guid: 55810287ab8851146aa44fe283b0e689, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: postbox2_baseColor
+    second: {fileID: 2800000, guid: 93327b357ccc0ed4c93bc698241d949e, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: postbox_baseColor
+    second: {fileID: 2800000, guid: 3296cb7ff30b2714bb163f5d13bdff4e, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: simple_poly_city_1_baseColor
+    second: {fileID: 2800000, guid: 32fdb332162a39144ace34e4bd3f443c, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: simple_poly_city_baseColor
+    second: {fileID: 2800000, guid: f92a3213b62c1b143814b3a3f3d7ee62, type: 3}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: aecd2106718f2444db3ca21345da2cef, type: 3}
+  reverseAxis: 0
+  renderPipeline: 0

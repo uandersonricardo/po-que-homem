@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: f6cf63397220a3e4596afd82c62f8cd6
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ModularRoads
+    second: {fileID: 2100000, guid: 01de7ef5de51b854589cffc39e27f23c, type: 2}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: ModularRoads_baseColor
+    second: {fileID: 2800000, guid: 099d3543bc0346249af368f47849ff33, type: 3}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: aecd2106718f2444db3ca21345da2cef, type: 3}
+  reverseAxis: 0
+  renderPipeline: 0
