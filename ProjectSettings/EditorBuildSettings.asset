@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Playground.unity
     guid: e9017d5f96b9f09489b4b37e1d6eb914
   - enabled: 1
-    path: Assets/Scenes/Flirt.unity
+    path: Assets/Scenes/Fight.unity
     guid: 1e85488bb4a8a8f4e93df6a46ffd7105
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7,
