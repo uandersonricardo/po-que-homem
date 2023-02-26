@@ -12,7 +12,7 @@ public class Detect : MonoBehaviour
     private Transform defaultLookAt;
     private Vector3 defaultOffset;
     public GameObject heart;
-    public GameObject ui;
+    public Flirt ui;
     public Vector3 offset; 
 
     // Start is called before the first frame update
@@ -31,8 +31,8 @@ public class Detect : MonoBehaviour
     {
         if (isClose && Keyboard.current.fKey.wasPressedThisFrame)
         {
-            ui.SetActive(true);
             SetFlirtCamera();
+            ui.StartFlirting(GetComponentInParent<Man>());
         }
     }
 
