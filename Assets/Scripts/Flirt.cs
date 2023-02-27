@@ -13,11 +13,12 @@ public class Flirt : MonoBehaviour
     public GameObject panel;
     public GameObject[] buttons;
     public Slider lovemeter;
+    public Talk talkUi;
 
     // Start is called before the first frame update
     void Start()
     {
-        lovemeter.value = selectedMan.lovemeterParameters.startValue;
+
     }
 
     // Update is called once per frame
@@ -57,16 +58,18 @@ public class Flirt : MonoBehaviour
         }
         else if (Keyboard.current.escapeKey.wasPressedThisFrame)
         {
-            SoundManager.Instance.PlaySound("Transition");
-            gameObject.SetActive(false);
-            FindObjectOfType<Detect>().SetDefaultCamera();
+            ExitFlirting();
         }
     }
 
-    public void StartFlirting(Man man)
+    public void StartFlirting(Man man, bool playSound = true)
     {
-        SoundManager.Instance.PlaySound("Transition");
+        if (playSound) {
+            SoundManager.Instance.PlaySound("Transition");
+        }
+        
         selectedMan = man;
+        lovemeter.value = man.lovemeterParameters.startValue;
         SetDialogue(0);
         gameObject.SetActive(true);
     }
@@ -133,11 +136,14 @@ public class Flirt : MonoBehaviour
 
         if (lovemeter.value >= 1)
         {
-            // Win
+            SoundManager.Instance.PlaySound("Completed");
+            Seduced.Show(selectedMan.model, selectedMan.type, UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
+            ExitFlirting(false);
         }
         else if (lovemeter.value <= 0 || currentDialogue >= selectedMan.dialogues.Count - 1)
         {
-            // Lose
+            talkUi.StartTalking(new List<string>() { selectedMan.notInterestedText }, selectedMan.type, false);
+            ExitFlirting(false);
         }
         else
         {
@@ -148,5 +154,15 @@ public class Flirt : MonoBehaviour
     void ScaleHeart()
     {
         lovemeter.transform.Find("Heart").localScale = new Vector3(1.1f, 1.1f, 1f);
+    }
+
+    void ExitFlirting(bool playSound = true)
+    {
+        if (playSound) {
+            SoundManager.Instance.PlaySound("Transition");
+        }
+
+        gameObject.SetActive(false);
+        FindObjectOfType<Detect>().SetDefaultCamera();
     }
 }
