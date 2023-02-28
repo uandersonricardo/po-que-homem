@@ -71,6 +71,7 @@ public class Flirt : MonoBehaviour
         selectedMan = man;
         lovemeter.value = man.lovemeterParameters.startValue;
         SetDialogue(0);
+        FindObjectOfType<PlayerInput>().enabled = false;
         gameObject.SetActive(true);
     }
 
@@ -163,6 +164,7 @@ public class Flirt : MonoBehaviour
         }
 
         gameObject.SetActive(false);
+        FindObjectOfType<PlayerInput>().enabled = true;
         FindObjectOfType<Detect>().SetDefaultCamera();
     }
 }

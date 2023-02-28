@@ -12,8 +12,9 @@ public class Detect : MonoBehaviour
     private Transform defaultLookAt;
     private Vector3 defaultOffset;
     public GameObject heart;
-    public Flirt ui;
-    public Vector3 offset; 
+    public Vector3 cameraOffset; 
+    public Flirt flirtUi;
+    public Talk talkUi;
 
     // Start is called before the first frame update
     void Start()
@@ -31,8 +32,7 @@ public class Detect : MonoBehaviour
     {
         if (isClose && Keyboard.current.fKey.wasPressedThisFrame)
         {
-            SetFlirtCamera();
-            ui.StartFlirting(GetComponentInParent<Man>());
+            TalkTo();
         }
     }
 
@@ -54,12 +54,32 @@ public class Detect : MonoBehaviour
         }
     }
 
+    void TalkTo()
+    {
+        Man man = GetComponentInParent<Man>();
+        InventoryItem inventoryItem = Inventory.GetItem(man.itemToGive);
+
+        if (inventoryItem == null)
+        {
+            talkUi.StartTalking(new List<string> { man.itemToGiveText }, man.type);
+        }
+        else if (!inventoryItem.isGiven)
+        {
+            Inventory.GiveItem(inventoryItem);
+            talkUi.StartTalking(new List<string> { man.thankText }, man.type);
+        }
+        else
+        {
+            SetFlirtCamera();
+            flirtUi.StartFlirting(man);
+        }
+    }
+
     public void SetFlirtCamera()
     {
         vcam.Follow = transform;
         vcam.LookAt = transform;
-        vcam.GetCinemachineComponent<CinemachineTransposer>().m_FollowOffset = offset;
-        FindObjectOfType<PlayerInput>().enabled = false;
+        vcam.GetCinemachineComponent<CinemachineTransposer>().m_FollowOffset = cameraOffset;
     }
 
     public void SetDefaultCamera()
@@ -67,6 +87,5 @@ public class Detect : MonoBehaviour
         vcam.Follow = defaultFollow;
         vcam.LookAt = defaultLookAt;
         vcam.GetCinemachineComponent<CinemachineTransposer>().m_FollowOffset = defaultOffset;
-        FindObjectOfType<PlayerInput>().enabled = true;
     }
 }

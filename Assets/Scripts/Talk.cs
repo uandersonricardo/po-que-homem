@@ -27,9 +27,7 @@ public class Talk : MonoBehaviour
         }
         else if (Keyboard.current.escapeKey.wasPressedThisFrame)
         {
-            SoundManager.Instance.PlaySound("Transition");
-            gameObject.SetActive(false);
-            FindObjectOfType<Detect>().SetDefaultCamera();
+            ExitTalking();
         }
     }
 
@@ -42,6 +40,7 @@ public class Talk : MonoBehaviour
         phrases = phraseList;
         character = characterName;
         SetPhrase(0);
+        FindObjectOfType<PlayerInput>().enabled = false;
         gameObject.SetActive(true);
     }
 
@@ -68,6 +67,7 @@ public class Talk : MonoBehaviour
     {
         SoundManager.Instance.PlaySound("Transition");
         gameObject.SetActive(false);
+        FindObjectOfType<PlayerInput>().enabled = true;
         FindObjectOfType<Detect>().SetDefaultCamera();
     }
 }
