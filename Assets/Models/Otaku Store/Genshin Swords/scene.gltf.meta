@@ -1,0 +1,147 @@
+fileFormatVersion: 2
+guid: 52a7ac707f57ea441a16d545210d7852
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bakufu
+    second: {fileID: 2100000, guid: fdc567ca583c353468e4a2dad2448250, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Boreas
+    second: {fileID: 2100000, guid: 50e4128c61e41d948a687495809a8b5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cool_Steel
+    second: {fileID: 2100000, guid: e370b61a064d98248904fe992087bf55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dull_Blade
+    second: {fileID: 2100000, guid: 544e84fcf20f20840ade0c3b8a6f7532, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Freedom-Sworn
+    second: {fileID: 2100000, guid: 323ab33edb8153f4caf7b3ad11769acb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Katana
+    second: {fileID: 2100000, guid: 3d3bc8ca41948f8438ce6d337639461c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lions_Roar
+    second: {fileID: 2100000, guid: e9457d588b00b094a9beb28d08d829d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mistsplitter_Reforged
+    second: {fileID: 2100000, guid: c1637e1efdb9b7444989198cf8d742d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Narukami
+    second: {fileID: 2100000, guid: a7c4bc42e00eb4843b8fd9bb7b235298, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Outline
+    second: {fileID: 2100000, guid: a49584dea1e362d40accb08b3e7248f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Outline.001
+    second: {fileID: 2100000, guid: 942e0a892ba49704eb6a7698c08f775b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Prototype_Rancour
+    second: {fileID: 2100000, guid: cfa55471217274f428528bc0dda2627e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: acc.004
+    second: {fileID: 2100000, guid: 1f326fcb56ce18343b831159c14c87f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: acc.006
+    second: {fileID: 2100000, guid: 6041b6a5917226b4eb5ed841f2fe883c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: acc_1
+    second: {fileID: 2100000, guid: d8c8d2b46a2838c43955c06a3519f99c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ring_1
+    second: {fileID: 2100000, guid: 148431cb973f3944bb5bcc152922c285, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ring_2
+    second: {fileID: 2100000, guid: 373041913b899d44ba35d147a28d9b64, type: 2}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Bakufu_baseColor
+    second: {fileID: 2800000, guid: a18dc4c9e227ee04a909134d8d3940aa, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Boreas_baseColor
+    second: {fileID: 2800000, guid: b01078a70ed2c7348869f54c913abb66, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Cool_Steel_baseColor
+    second: {fileID: 2800000, guid: fb1d6e52f1ed2d5408f5ca9b575d77f4, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Dull_Blade_baseColor
+    second: {fileID: 2800000, guid: d252028ab7d92004abcfdca7239b8480, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Freedom-Sworn_baseColor
+    second: {fileID: 2800000, guid: 6d08ab9fe3130544e950a29d23599bfd, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Katana_baseColor
+    second: {fileID: 2800000, guid: 5f60a09764056ba40949bf81aad8e437, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Lions_Roar_baseColor
+    second: {fileID: 2800000, guid: 15bb290af2c5a7246a4354d75d2018e9, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Mistsplitter_Reforged_baseColor
+    second: {fileID: 2800000, guid: 72511d50d4d1cfe4c9ff91fa3020161d, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Narukami_baseColor
+    second: {fileID: 2800000, guid: cc71d00eddde1ee44baa794a5af4b242, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Prototype_Rancour_baseColor
+    second: {fileID: 2800000, guid: 86e73c144e7ef9c4dbed22b839cc3de2, type: 3}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: aecd2106718f2444db3ca21345da2cef, type: 3}
+  reverseAxis: 0
+  renderPipeline: 0

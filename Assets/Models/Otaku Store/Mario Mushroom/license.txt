@@ -1,0 +1,11 @@
+Model Information:
+* title:	Super Mushroom - Super Mario
+* source:	https://sketchfab.com/3d-models/super-mushroom-super-mario-a4f46f7f08f84147bfe4c9fd238ac086
+* author:	Ludus101 (https://sketchfab.com/Ludus101)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Super Mushroom - Super Mario" (https://sketchfab.com/3d-models/super-mushroom-super-mario-a4f46f7f08f84147bfe4c9fd238ac086) by Ludus101 (https://sketchfab.com/Ludus101) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

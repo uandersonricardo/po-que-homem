@@ -1,0 +1,62 @@
+fileFormatVersion: 2
+guid: f7763e2414e41da4f9b582af48affcd0
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01_-_Default
+    second: {fileID: 2100000, guid: acfa8444b09fd7e4ca9a9e1b03ea59f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 02_-_Default
+    second: {fileID: 2100000, guid: c6be6492b39ea64419eb33cddee0595e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 03_-_Default
+    second: {fileID: 2100000, guid: ceaba400c825b4345b98e24710e27147, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 07_-_Default
+    second: {fileID: 2100000, guid: 671359abb657d8541a1fc94d245ced86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 08_-_Default
+    second: {fileID: 2100000, guid: c8158c788f0d2c844884854141bd4338, type: 2}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: 01_-_Default_baseColor
+    second: {fileID: 2800000, guid: 49bac63f8c6cb474eaa53bfdcefbeb7d, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: 01_-_Default_normal.normal
+    second: {fileID: 2800000, guid: 415d2707d22c0e8418b59d41c4c5e8f9, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: 02_-_Default_baseColor
+    second: {fileID: 2800000, guid: 91fd220b46140b84a9ad22f2aa720152, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: 07_-_Default_baseColor
+    second: {fileID: 2800000, guid: 805c39fe5cd0b434db0f25a1eb4e0453, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: 07_-_Default_normal.normal
+    second: {fileID: 2800000, guid: a17a448c58aec5b42a65002d819f48ac, type: 3}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: aecd2106718f2444db3ca21345da2cef, type: 3}
+  reverseAxis: 0
+  renderPipeline: 0

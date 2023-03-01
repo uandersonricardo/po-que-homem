@@ -1,0 +1,11 @@
+Model Information:
+* title:	Store Shelves
+* source:	https://sketchfab.com/3d-models/store-shelves-8406794ee19b4af49e0ccc02d1132915
+* author:	Peter_D (https://sketchfab.com/better_peter)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Store Shelves" (https://sketchfab.com/3d-models/store-shelves-8406794ee19b4af49e0ccc02d1132915) by Peter_D (https://sketchfab.com/better_peter) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,42 @@
+fileFormatVersion: 2
+guid: 3e9e2e2227682924185f6fd5f7658a17
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DEATH_NOTE
+    second: {fileID: 2100000, guid: dfbbdad0f16404e4cbdacf838a061c22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PAPERS
+    second: {fileID: 2100000, guid: 91a55a27bea1fa14694aadac99794dba, type: 2}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: DEATH_NOTE_baseColor
+    second: {fileID: 2800000, guid: 62e52e31e2bd3144e86f9658cf1ec57e, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: DEATH_NOTE_metallicRoughness.standard
+    second: {fileID: 2800000, guid: d723b7d617653854f9a822862728dfeb, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: DEATH_NOTE_normal.normal
+    second: {fileID: 2800000, guid: 46ae9fcfb87613a4d81d2a269d44825a, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: PAPERS_baseColor
+    second: {fileID: 2800000, guid: 16d9d1ebb6d2d5f4888158f5cd72d84d, type: 3}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: aecd2106718f2444db3ca21345da2cef, type: 3}
+  reverseAxis: 0
+  renderPipeline: 0

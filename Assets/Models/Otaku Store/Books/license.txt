@@ -1,0 +1,11 @@
+Model Information:
+* title:	Expo Books
+* source:	https://sketchfab.com/3d-models/expo-books-0e112c9515c04ef1b35d50094438276b
+* author:	Francesco Coldesina (https://sketchfab.com/topfrank2013)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Expo Books" (https://sketchfab.com/3d-models/expo-books-0e112c9515c04ef1b35d50094438276b) by Francesco Coldesina (https://sketchfab.com/topfrank2013) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

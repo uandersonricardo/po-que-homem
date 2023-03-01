@@ -1,0 +1,528 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 878,
+      "max": [
+        94.9565658569336,
+        2.974374294281006,
+        102.81670379638672
+      ],
+      "min": [
+        -110.7434310913086,
+        -80.05581665039063,
+        -15.134246826171875
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 10536,
+      "componentType": 5126,
+      "count": 878,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 878,
+      "max": [
+        0.9916433095932007,
+        0.9916353821754456
+      ],
+      "min": [
+        0.008356700651347637,
+        0.008364677429199219
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 2328,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 21072,
+      "componentType": 5126,
+      "count": 118,
+      "max": [
+        6.996044158935547,
+        9.481228828430176,
+        6.996044158935547
+      ],
+      "min": [
+        -6.996044158935547,
+        -6.1291728019714355,
+        -6.996044158935547
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 22488,
+      "componentType": 5126,
+      "count": 118,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 7024,
+      "componentType": 5126,
+      "count": 118,
+      "max": [
+        0.9917082190513611,
+        0.9908409118652344
+      ],
+      "min": [
+        0.008291760459542274,
+        0.009159088134765625
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 9312,
+      "componentType": 5125,
+      "count": 336,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 23904,
+      "componentType": 5126,
+      "count": 64,
+      "max": [
+        5.564524173736572,
+        13.730648040771484,
+        13.016279220581055
+      ],
+      "min": [
+        -1.4414169788360596,
+        -15.380647659301758,
+        -13.016279220581055
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24672,
+      "componentType": 5126,
+      "count": 64,
+      "max": [
+        1.0,
+        1.0,
+        0.999992311000824
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -0.999992311000824
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 7968,
+      "componentType": 5126,
+      "count": 64,
+      "max": [
+        0.9912033677101135,
+        0.9918433427810669
+      ],
+      "min": [
+        0.008796654641628265,
+        0.008156657218933105
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 10656,
+      "componentType": 5125,
+      "count": 156,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "harway (https://sketchfab.com/harway)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/sempai-coffee-machine-fdecd4570f78412a821d9c41d98b2cfa",
+      "title": "Sempai Coffee machine"
+    },
+    "generator": "Sketchfab-12.67.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 11280,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8480,
+      "byteOffset": 11280,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 25440,
+      "byteOffset": 19760,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 45200,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Machine__Caf_baseColor.png"
+    },
+    {
+      "uri": "textures/Machine__Caf_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Machine__Caf_emissive.png"
+    },
+    {
+      "uri": "textures/Cylinder_baseColor.png"
+    },
+    {
+      "uri": "textures/Cylinder_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Porte_Machine_baseColor.png"
+    },
+    {
+      "uri": "textures/Porte_Machine_metallicRoughness.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissiveTexture": {
+        "index": 2
+      },
+      "name": "Machine__Caf",
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        },
+        "roughnessFactor": 0.05287877863103696
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Cylinder",
+      "occlusionTexture": {
+        "index": 4
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicFactor": 0.5046969789447207,
+        "metallicRoughnessTexture": {
+          "index": 4
+        },
+        "roughnessFactor": 0.1377272634795218
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Porte_Machine",
+      "occlusionTexture": {
+        "index": 6
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 5
+        },
+        "metallicFactor": 0.3956060698538115,
+        "metallicRoughnessTexture": {
+          "index": 6
+        },
+        "roughnessFactor": 0.2953030210552794
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Machine_��_Caf��_1_Machine �� Caf��_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Gobelelet_Cylinder_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Porte_Machine_1_Porte Machine_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "b5fc36cc4a594e55ab15fa526032da9d.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4,
+        5,
+        7
+      ],
+      "matrix": [
+        4.440892098500626e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        4.440892098500626e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        45.055816650390625,
+        -10.743431091308594,
+        -43.84122848510742,
+        1.0
+      ],
+      "name": "Machine_��_Caf��_1"
+    },
+    {
+      "mesh": 0,
+      "name": "Machine_��_Caf��_1_Machine �� Caf��_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        4.440892098500626e-16,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        4.440892098500626e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        17.812564849853516,
+        -17.41594886779785,
+        49.56587219238281,
+        1.0
+      ],
+      "name": "Gobelelet"
+    },
+    {
+      "mesh": 1,
+      "name": "Gobelelet_Cylinder_0"
+    },
+    {
+      "children": [
+        8
+      ],
+      "matrix": [
+        4.440892098500626e-16,
+        1.0,
+        -3.7982270983039195e-65,
+        0.0,
+        -1.0,
+        4.440892098500626e-16,
+        2.837024577736361e-49,
+        0.0,
+        2.8370245777363616e-49,
+        -9.495567745759799e-65,
+        1.0,
+        0.0,
+        -14.34906005859375,
+        -7.170688152313232,
+        49.210269927978516,
+        1.0
+      ],
+      "name": "Porte_Machine_1"
+    },
+    {
+      "mesh": 2,
+      "name": "Porte_Machine_1_Porte Machine_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    },
+    {
+      "sampler": 0,
+      "source": 5
+    },
+    {
+      "sampler": 0,
+      "source": 6
+    }
+  ]
+}

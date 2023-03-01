@@ -1,0 +1,503 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1678,
+      "max": [
+        4.999484539031982,
+        5.126911163330078,
+        4.823877334594727
+      ],
+      "min": [
+        -4.999484539031982,
+        -4.877530097961426,
+        -2.1824076175689697
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 20136,
+      "componentType": 5126,
+      "count": 1678,
+      "max": [
+        0.9967086315155029,
+        0.9987630844116211,
+        0.9999657273292542
+      ],
+      "min": [
+        -0.9967086315155029,
+        -0.9993760585784912,
+        -0.9969664216041565
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1678,
+      "max": [
+        9.928009986877441,
+        20.406679153442383
+      ],
+      "min": [
+        -4.000234603881836,
+        -14.681990623474121
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 8061,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 40272,
+      "componentType": 5126,
+      "count": 240,
+      "max": [
+        1.3968485593795776,
+        -2.708984613418579,
+        -1.9500000476837158
+      ],
+      "min": [
+        -1.3993674516677856,
+        -3.042900562286377,
+        -3.6500000953674316
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 43152,
+      "componentType": 5126,
+      "count": 240,
+      "max": [
+        0.9999087452888489,
+        -0.0,
+        1.0
+      ],
+      "min": [
+        -0.9999087452888489,
+        -0.9719504117965698,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 13424,
+      "componentType": 5126,
+      "count": 240,
+      "max": [
+        5.566235542297363,
+        16.115055084228516
+      ],
+      "min": [
+        -5.566235542297363,
+        -2.404207944869995
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32244,
+      "componentType": 5125,
+      "count": 750,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 46032,
+      "componentType": 5126,
+      "count": 1092,
+      "max": [
+        3.080341339111328,
+        3.082157611846924,
+        -1.2776771783828735
+      ],
+      "min": [
+        -3.080341339111328,
+        -3.082157611846924,
+        -5.599999904632568
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 59136,
+      "componentType": 5126,
+      "count": 1092,
+      "max": [
+        0.9996412396430969,
+        0.9999995231628418,
+        0.10938288271427155
+      ],
+      "min": [
+        -0.9996412396430969,
+        -0.9999995231628418,
+        -0.9999426603317261
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 15344,
+      "componentType": 5126,
+      "count": 1092,
+      "max": [
+        5.4414896965026855,
+        16.648174285888672
+      ],
+      "min": [
+        0.0,
+        4.999928780897724e-32
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 35244,
+      "componentType": 5125,
+      "count": 5805,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 72240,
+      "componentType": 5126,
+      "count": 1124,
+      "max": [
+        5.00948429107666,
+        5.136826038360596,
+        4.373791694641113
+      ],
+      "min": [
+        -5.00948429107666,
+        -4.796429634094238,
+        -0.6899901032447815
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 85728,
+      "componentType": 5126,
+      "count": 1124,
+      "max": [
+        0.9988539814949036,
+        0.9999558329582214,
+        0.9999890327453613
+      ],
+      "min": [
+        -0.9993148446083069,
+        -0.999336838722229,
+        -0.9977608919143677
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 24080,
+      "componentType": 5126,
+      "count": 1124,
+      "max": [
+        8.228853225708008,
+        20.320560455322266
+      ],
+      "min": [
+        -8.224578857421875,
+        2.463434934616089
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 58464,
+      "componentType": 5125,
+      "count": 4500,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Ludus101 (https://sketchfab.com/Ludus101)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/super-mushroom-super-mario-a4f46f7f08f84147bfe4c9fd238ac086",
+      "title": "Super Mushroom - Super Mario"
+    },
+    "generator": "Sketchfab-14.84.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 76464,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 33072,
+      "byteOffset": 76464,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 99216,
+      "byteOffset": 109536,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 208752,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_specular"
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Body4__0",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.0
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Aluminum_-_Anodized_Glossy_Red",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8103699510436352,
+          0.0417414944535595,
+          0.0417414944535595,
+          1.0
+        ],
+        "metallicFactor": 0.0
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Aluminum_-_Anodized_Glossy_Black",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.008329261933796989,
+          0.008329261933796989,
+          0.008329261933796989,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specularFactor": 0.5470492862454438
+        }
+      },
+      "name": "Aluminum_-_Anodized_Glossy_Pale",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.7665614189803083,
+          0.5664110620314137,
+          0.20663306348292396,
+          1.0
+        ],
+        "metallicFactor": 0.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Body4_Aluminum - Anodized Glossy (Red)_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Body4_Aluminum - Anodized Glossy Black_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Body4_Aluminum - Anodized Glossy Pale_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Body4__0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 13,
+            "POSITION": 12,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.5135165006463964,
+        -0.750882075277289,
+        -0.38358679848685123,
+        0.0,
+        -0.6424573128861049,
+        -0.5165061568473807,
+        -1.523865136535868,
+        0.0,
+        0.5460872676274562,
+        1.4734626781573754,
+        -0.7296514272123812,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.0010000000474974513,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0010000000474974513,
+        0.0,
+        0.0,
+        -0.0010000000474974513,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Super Mario Power Mushroom.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "Super Mario Power Mushroom - Mario v5"
+    },
+    {
+      "children": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "matrix": [
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Body4"
+    },
+    {
+      "mesh": 0,
+      "name": "Body4_Aluminum - Anodized Glossy (Red)_0"
+    },
+    {
+      "mesh": 1,
+      "name": "Body4_Aluminum - Anodized Glossy Black_0"
+    },
+    {
+      "mesh": 2,
+      "name": "Body4_Aluminum - Anodized Glossy Pale_0"
+    },
+    {
+      "mesh": 3,
+      "name": "Body4__0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

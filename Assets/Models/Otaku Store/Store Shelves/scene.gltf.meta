@@ -1,0 +1,37 @@
+fileFormatVersion: 2
+guid: be9444b1495f508428f5de7ad8d42e3d
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_shelf
+    second: {fileID: 2100000, guid: 994b2764c5cf9004baae3a86e2b6274e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_shelf_glass
+    second: {fileID: 2100000, guid: 9c00edb66be9ed84eb3e56eb66f854eb, type: 2}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: mat_shelf_baseColor
+    second: {fileID: 2800000, guid: 8030d5733a4f1dc49a77d11f2b5cfe9d, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: mat_shelf_metallicRoughness.standard
+    second: {fileID: 2800000, guid: 3d5cd3ba1fe0b6546a69fae3dd20fa7c, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: mat_shelf_normal.normal
+    second: {fileID: 2800000, guid: 7480a753b4eb73f428a9f8029ba52922, type: 3}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: aecd2106718f2444db3ca21345da2cef, type: 3}
+  reverseAxis: 0
+  renderPipeline: 0
