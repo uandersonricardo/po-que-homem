@@ -18,7 +18,8 @@ public class ConfirmLocation : MonoBehaviour
         {"Gym", "Academia"},
         {"Bedroom","Quarto"},
         {"Bar", "Bar"},
-        {"AnimeStore", "Lojinha Geek"}
+        {"AnimeStore", "Lojinha Geek"},
+        {"Playground", "Praça" },
     };
 
     public void SetScene(string scene)
@@ -56,12 +57,12 @@ public class ConfirmLocation : MonoBehaviour
         else if (Keyboard.current.escapeKey.wasPressedThisFrame)
         {
             gameObject.SetActive(false);
-            FindObjectOfType<Detect>().SetDefaultCamera();
+            FindObjectOfType<EnterLocation>().SetDefaultCamera();
         }
         else if (Keyboard.current.enterKey.wasPressedThisFrame)
         {
             gameObject.SetActive(false);
-            FindObjectOfType<Detect>().SetDefaultCamera();
+            FindObjectOfType<EnterLocation>().SetDefaultCamera();
             if (selectedButton == 0)
             {
                 UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);

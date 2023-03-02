@@ -1,0 +1,332 @@
+fileFormatVersion: 2
+guid: 9763fc6dbd6383d43bedabbb412631db
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Armario_metal
+    second: {fileID: 2100000, guid: c2f8e6db5d075404898275d5c18d38f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Armario_trasero
+    second: {fileID: 2100000, guid: 6f27b28896c259844a6963aab77bbf8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lapiz
+    second: {fileID: 2100000, guid: c192ff72e66ae1c448d75d83c49b0bdc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesa
+    second: {fileID: 2100000, guid: 6677dc0d86100c14ca343b23ce17eed5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mueble
+    second: {fileID: 2100000, guid: ea6c2a6eebd532841a0f9f8f53ff59c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pared
+    second: {fileID: 2100000, guid: 3cd6e77433b7de64eb0dd9ea86109e39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paredes1
+    second: {fileID: 2100000, guid: fb9fbd914ee36b948b603b2d99784679, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Piecesitas_de_la_pared
+    second: {fileID: 2100000, guid: c283d927d682257438473e49c2aeeef6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Piecita
+    second: {fileID: 2100000, guid: b53040f71da15f84cb7661db75789b0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Piso1
+    second: {fileID: 2100000, guid: 9d0e9adfae36c2b4caed1d44b495406c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Powerplug
+    second: {fileID: 2100000, guid: 4bbccac8f3830a94f97c4055f3f68b71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pupitre_profe
+    second: {fileID: 2100000, guid: ead91c700f710804dbcd852161a1b79e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Silla
+    second: {fileID: 2100000, guid: e922d1d09a45803418e2423411f324d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tablero
+    second: {fileID: 2100000, guid: c2cc30d31a75f1140a59cc165f815280, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Techo
+    second: {fileID: 2100000, guid: 218634cf67c0b6c4895153aa8be2722a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ventanas1
+    second: {fileID: 2100000, guid: f98c0f95677267e4d81d65013568a7b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vidiros
+    second: {fileID: 2100000, guid: 783170592aceec242a67f615a1d0f606, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vidrio_puerta
+    second: {fileID: 2100000, guid: 316b81e2065ca0e4381250445473f487, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WallD
+    second: {fileID: 2100000, guid: 813ed3479f103fa4eb28e7aaad24b000, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: borrador
+    second: {fileID: 2100000, guid: af4ac2c0b88593f47959a45887402be1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: d4e688e155b4fbe47a905b769ff867e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert15
+    second: {fileID: 2100000, guid: 548fb7c404c799349aff5e8eb16afcbb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert30
+    second: {fileID: 2100000, guid: 82653f66983415c48804a475dda11b1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert31
+    second: {fileID: 2100000, guid: 111099f18f9c00a43bf27f3b550213f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert33
+    second: {fileID: 2100000, guid: 3f8c78b8347a14a498369dcc5f8431dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: libros
+    second: {fileID: 2100000, guid: 368945666e01e9b4a8c06bf4075595a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: puertas
+    second: {fileID: 2100000, guid: 7a5c0096df8578f45bbe9591cd59a6d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: reloj
+    second: {fileID: 2100000, guid: 3f41c448dfe0ff54eaf97faadd51c8e5, type: 2}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Armario_metal_baseColor
+    second: {fileID: 2800000, guid: ad505cc1ffc823544a12c4cda29674ca, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Armario_metal_metallicRoughness.standard
+    second: {fileID: 2800000, guid: e1b1e3a518db83943980c03ac37b441b, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Armario_trasero_baseColor
+    second: {fileID: 2800000, guid: c73c4db4e4a62ea42b8b64eda47b27c5, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Lapiz_baseColor
+    second: {fileID: 2800000, guid: c2ddd0c7c5d066b4eb93368622842fa1, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Mesa_baseColor
+    second: {fileID: 2800000, guid: 651bb93b3bdd1d548abc8aad82782566, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Mesa_metallicRoughness.standard
+    second: {fileID: 2800000, guid: 1bf0ee6bc8f5dcc478509da47ddcec68, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Pared_baseColor
+    second: {fileID: 2800000, guid: cc59c1ae7aa5bb148899ad29172de48e, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Pared_metallicRoughness.standard
+    second: {fileID: 2800000, guid: 347366b40b7cb4e49bc5679730a44dce, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Paredes1_baseColor
+    second: {fileID: 2800000, guid: 17e0b2f18e73d9546bedd6a5da3cac14, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Piecesitas_de_la_pared_baseColor
+    second: {fileID: 2800000, guid: 64279a692a3c7ab428fe6a83e3f13195, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Piecesitas_de_la_pared_emissive
+    second: {fileID: 2800000, guid: 6cca45eda1796ee43866a5577de2c765, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Piecita_baseColor
+    second: {fileID: 2800000, guid: bd8b03649893cc3469675423aa20713e, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Piso1_baseColor
+    second: {fileID: 2800000, guid: 2ce04fdb08996fc46913a3ada0c7fca0, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Piso1_metallicRoughness.standard
+    second: {fileID: 2800000, guid: da502a3b97d80d04a945d167c134bae3, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Piso1_normal.normal
+    second: {fileID: 2800000, guid: 8b28ccaab9600fb47956e6bdd1af62a3, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Powerplug_baseColor
+    second: {fileID: 2800000, guid: 2f6d5a123b52ab14199a8ed5058d2e53, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Pupitre_profe_baseColor
+    second: {fileID: 2800000, guid: 117260adc7a9223449da840892b19bdf, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Pupitre_profe_metallicRoughness.standard
+    second: {fileID: 2800000, guid: ca56a0fe187ffb84c92f2e38793911c7, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Silla_baseColor
+    second: {fileID: 2800000, guid: 75feb1cdf66afc447b0581e40fd8e862, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Silla_metallicRoughness.standard
+    second: {fileID: 2800000, guid: 2e7e0f0129254da4fabdebde23420833, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Tablero_baseColor
+    second: {fileID: 2800000, guid: 0ef461fc4311e5046a238f494fdeee83, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Tablero_metallicRoughness.standard
+    second: {fileID: 2800000, guid: 028b8066699b5e448a54b46a27287e6c, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Techo_baseColor
+    second: {fileID: 2800000, guid: 771f5cbb6e3ffaf4cb89ca21c5dca656, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Techo_normal.normal
+    second: {fileID: 2800000, guid: 10cea6351b27f1149bcd447ddfa9cc87, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Ventanas1_baseColor
+    second: {fileID: 2800000, guid: 7c90f4ba2c5d70d4c9dc70e28fb54743, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Ventanas1_metallicRoughness.standard
+    second: {fileID: 2800000, guid: fa92d34be67aefa4abed1f3ca2858cfa, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Vidiros_baseColor
+    second: {fileID: 2800000, guid: 67f103ee179fe9245b1acc2fd3247ce8, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: lambert15_baseColor
+    second: {fileID: 2800000, guid: 2c8577cb86709a549972e7ed6dc3e57a, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: lambert15_emissive
+    second: {fileID: 2800000, guid: ff1d5a60af60e564c959cd4f923df70a, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: lambert15_metallicRoughness.standard
+    second: {fileID: 2800000, guid: ce1a4d6229b73154296e5eb43e4f4f27, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: lambert30_baseColor
+    second: {fileID: 2800000, guid: f0f602abe88e1e04a9a17c440b152839, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: lambert31_baseColor
+    second: {fileID: 2800000, guid: d396e2b80c48fc3448c238ceaa3d5507, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: lambert33_baseColor
+    second: {fileID: 2800000, guid: fa95d6bddb1977743a9a56e9c2480c6a, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: libros_baseColor
+    second: {fileID: 2800000, guid: aaf16b348cefe0c4bb01d9aec5349d44, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: puertas_baseColor
+    second: {fileID: 2800000, guid: e65cca9e31871964ba7de74fc5c18aae, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: reloj_baseColor
+    second: {fileID: 2800000, guid: 222eaf9e0b4f9054ead75ee4df091c52, type: 3}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: aecd2106718f2444db3ca21345da2cef, type: 3}
+  reverseAxis: 0
+  renderPipeline: 0
