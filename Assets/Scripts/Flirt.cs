@@ -137,6 +137,7 @@ public class Flirt : MonoBehaviour
 
         if (lovemeter.value >= 1)
         {
+            ContactList.AddContact(selectedMan);
             SoundManager.Instance.PlaySound("Completed");
             Seduced.Show(selectedMan.model, selectedMan.type, UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
             ExitFlirting(false);

@@ -11,6 +11,7 @@ public class Detect : MonoBehaviour
     private Transform defaultFollow;
     private Transform defaultLookAt;
     private Vector3 defaultOffset;
+    private Man man;
     public GameObject heart;
     public Vector3 cameraOffset; 
     public Flirt flirtUi;
@@ -20,6 +21,7 @@ public class Detect : MonoBehaviour
     void Start()
     {
         isClose = false;
+        man = GetComponentInParent<Man>();
         vcam = FindObjectOfType<CinemachineVirtualCamera>();
         heart.SetActive(false);
         defaultFollow = vcam.Follow;
@@ -38,7 +40,7 @@ public class Detect : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player" && ContactList.GetContact(man.type) == null)
         {
             isClose = true;
             heart.SetActive(true);
@@ -56,7 +58,6 @@ public class Detect : MonoBehaviour
 
     void TalkTo()
     {
-        Man man = GetComponentInParent<Man>();
         InventoryItem inventoryItem = Inventory.GetItem(man.itemToGive);
 
         if (inventoryItem == null)
