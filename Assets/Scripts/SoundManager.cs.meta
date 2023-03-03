@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: b0cdaf66840dce14e9d5589451456d08
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - menuClick: {fileID: 8300000, guid: 9dcc17b61e22fd14687c5a861bd84f92, type: 3}
+  - menuClick2: {instanceID: 0}
+  - button: {instanceID: 0}
+  - completed: {instanceID: 0}
+  - warning: {instanceID: 0}
+  - hint: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -11,14 +11,17 @@ public class Detect : MonoBehaviour
     private Transform defaultFollow;
     private Transform defaultLookAt;
     private Vector3 defaultOffset;
+    private Man man;
     public GameObject heart;
-    public GameObject ui;
-    public Vector3 offset; 
+    public Vector3 cameraOffset; 
+    public Flirt flirtUi;
+    public Talk talkUi;
 
     // Start is called before the first frame update
     void Start()
     {
         isClose = false;
+        man = GetComponentInParent<Man>();
         vcam = FindObjectOfType<CinemachineVirtualCamera>();
         heart.SetActive(false);
         defaultFollow = vcam.Follow;
@@ -31,14 +34,13 @@ public class Detect : MonoBehaviour
     {
         if (isClose && Keyboard.current.fKey.wasPressedThisFrame)
         {
-            ui.SetActive(true);
-            SetFlirtCamera();
+            TalkTo();
         }
     }
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player" && ContactList.GetContact(man.type) == null)
         {
             isClose = true;
             heart.SetActive(true);
@@ -54,12 +56,31 @@ public class Detect : MonoBehaviour
         }
     }
 
+    void TalkTo()
+    {
+        InventoryItem inventoryItem = Inventory.GetItem(man.itemToGive);
+
+        if (inventoryItem == null)
+        {
+            talkUi.StartTalking(new List<string> { man.itemToGiveText }, man.type);
+        }
+        else if (!inventoryItem.isGiven)
+        {
+            Inventory.GiveItem(inventoryItem);
+            talkUi.StartTalking(new List<string> { man.thankText }, man.type);
+        }
+        else
+        {
+            SetFlirtCamera();
+            flirtUi.StartFlirting(man);
+        }
+    }
+
     public void SetFlirtCamera()
     {
         vcam.Follow = transform;
         vcam.LookAt = transform;
-        vcam.GetCinemachineComponent<CinemachineTransposer>().m_FollowOffset = offset;
-        FindObjectOfType<PlayerInput>().enabled = false;
+        vcam.GetCinemachineComponent<CinemachineTransposer>().m_FollowOffset = cameraOffset;
     }
 
     public void SetDefaultCamera()
@@ -67,6 +88,5 @@ public class Detect : MonoBehaviour
         vcam.Follow = defaultFollow;
         vcam.LookAt = defaultLookAt;
         vcam.GetCinemachineComponent<CinemachineTransposer>().m_FollowOffset = defaultOffset;
-        FindObjectOfType<PlayerInput>().enabled = true;
     }
 }

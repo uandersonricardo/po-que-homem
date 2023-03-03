@@ -3,17 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
+using TMPro;
 
 public class Flirt : MonoBehaviour
 {
-    private int selectedButton = 0;
+    private int currentDialogue;
+    private int selectedButton;
+    private Man selectedMan;
+    public GameObject panel;
     public GameObject[] buttons;
     public Slider lovemeter;
+    public Talk talkUi;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -21,53 +26,146 @@ public class Flirt : MonoBehaviour
     {
         if (Keyboard.current.rightArrowKey.wasPressedThisFrame)
         {
-            if (selectedButton == 0 || selectedButton == 2) {
-                selectedButton++;
-                SelectButton(selectedButton);
+            if (selectedButton == 0 || selectedButton == 2)
+            {
+                SelectButton(selectedButton + 1);
             }
         }
         else if (Keyboard.current.leftArrowKey.wasPressedThisFrame)
         {
             if (selectedButton == 1 || selectedButton == 3)
             {
-                selectedButton--;
-                SelectButton(selectedButton);
+                SelectButton(selectedButton - 1);
             }
         }
         else if (Keyboard.current.upArrowKey.wasPressedThisFrame)
         {
             if (selectedButton == 2 || selectedButton == 3)
             {
-                selectedButton -= 2;
-                SelectButton(selectedButton);
+                SelectButton(selectedButton - 2);
             }
         }
         else if (Keyboard.current.downArrowKey.wasPressedThisFrame)
         {
             if (selectedButton == 0 || selectedButton == 1)
             {
-                selectedButton += 2;
-                SelectButton(selectedButton);
+                SelectButton(selectedButton + 2);
             }
         }
-        else if (Keyboard.current.spaceKey.wasPressedThisFrame)
+        else if (Keyboard.current.enterKey.wasPressedThisFrame)
         {
-            lovemeter.value = 1f;
+            ChooseOption(selectedButton);
         }
         else if (Keyboard.current.escapeKey.wasPressedThisFrame)
         {
-            gameObject.SetActive(false);
-            FindObjectOfType<Detect>().SetDefaultCamera();
+            ExitFlirting();
         }
     }
 
-    public void SelectButton(int button)
+    public void StartFlirting(Man man, bool playSound = true)
     {
-        for (int i = 0; i < buttons.Length; i++)
-        {
-            buttons[i].GetComponent<RawImage>().color = new Color(1f, 1f, 1f, 0.5f);
+        if (playSound) {
+            SoundManager.Instance.PlaySound("Transition");
+        }
+        
+        selectedMan = man;
+        lovemeter.value = man.lovemeterParameters.startValue;
+        SetDialogue(0);
+        FindObjectOfType<PlayerInput>().enabled = false;
+        gameObject.SetActive(true);
+    }
+
+    void SelectButton(int button, bool playSound = true)
+    {
+        selectedButton = button;
+
+        if (playSound) {
+            SoundManager.Instance.PlaySound("Button");
         }
 
-        buttons[selectedButton].GetComponent<RawImage>().color = Color.white;
+        for (int i = 0; i < buttons.Length; i++)
+        {
+            DisableButton(i);
+        }
+
+        EnableButton(button);
+    }
+
+    void DisableButton(int button)
+    {
+        buttons[button].GetComponent<Image>().color = new Color(0f, 0f, 0f, 0.75f);
+        buttons[button].GetComponentInChildren<TextMeshProUGUI>().color = Color.white;
+        buttons[button].transform.Find("Selected").gameObject.SetActive(false);
+    }
+
+    void EnableButton(int button)
+    {
+        buttons[button].GetComponent<Image>().color = new Color(1f, 1f, 1f);
+        buttons[button].GetComponentInChildren<TextMeshProUGUI>().color = Color.black;
+        buttons[button].transform.Find("Selected").gameObject.SetActive(true);
+    }
+
+    void SetDialogue(int dialogueIndex)
+    {
+        currentDialogue = dialogueIndex;
+        Dialogue dialogue = selectedMan.dialogues[dialogueIndex];
+        SelectButton(0, false);
+
+        panel.transform.Find("Text").GetComponent<TextMeshProUGUI>().text = dialogue.text;
+        panel.transform.Find("Person Frame").Find("Text").GetComponent<TextMeshProUGUI>().text = selectedMan.type;
+
+        for (int i = 0; i < buttons.Length; i++)
+        {
+            buttons[i].transform.Find("Text").GetComponent<TextMeshProUGUI>().text = dialogue.options[i].text;
+        }
+    }
+
+    void ChooseOption(int option)
+    {
+        SoundManager.Instance.PlaySound("Select");
+        Dialogue dialogue = selectedMan.dialogues[currentDialogue];
+        lovemeter.transform.Find("Heart Frame").GetComponent<Animator>().Play("Scale Up");
+        
+        if (dialogue.options[option].correct)
+        {
+            lovemeter.value = Mathf.Clamp01(lovemeter.value + selectedMan.lovemeterParameters.hitValue);
+        }
+        else
+        {
+            lovemeter.value = Mathf.Clamp01(lovemeter.value - selectedMan.lovemeterParameters.missValue);
+        }
+
+        if (lovemeter.value >= 1)
+        {
+            ContactList.AddContact(selectedMan);
+            SoundManager.Instance.PlaySound("Completed");
+            Seduced.Show(selectedMan.model, selectedMan.type, UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
+            ExitFlirting(false);
+        }
+        else if (lovemeter.value <= 0 || currentDialogue >= selectedMan.dialogues.Count - 1)
+        {
+            talkUi.StartTalking(new List<string>() { selectedMan.notInterestedText }, selectedMan.type, false);
+            ExitFlirting(false);
+        }
+        else
+        {
+            SetDialogue(currentDialogue + 1);
+        }
+    }
+
+    void ScaleHeart()
+    {
+        lovemeter.transform.Find("Heart").localScale = new Vector3(1.1f, 1.1f, 1f);
+    }
+
+    void ExitFlirting(bool playSound = true)
+    {
+        if (playSound) {
+            SoundManager.Instance.PlaySound("Transition");
+        }
+
+        gameObject.SetActive(false);
+        FindObjectOfType<PlayerInput>().enabled = true;
+        FindObjectOfType<Detect>().SetDefaultCamera();
     }
 }
