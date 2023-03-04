@@ -32,6 +32,14 @@ public class EnterLocation : MonoBehaviour
     {
         if (isClose && Keyboard.current.fKey.wasPressedThisFrame)
         {
+            // Since we can only change to the secondary scenes from the Playground scene
+            // if the sceneName is not Playground, this means the player is leaving the Playground scene
+            if (sceneName != "Playground")
+            {
+                GameObject player = GameObject.FindWithTag("Player");
+                SpawnPlayer.SetSpawnPlayground(player.transform.position);
+            }
+
             ui.SetActive(true);
             ui.GetComponent<ConfirmLocation>().SetScene(sceneName);
             SetLocationCamera();
