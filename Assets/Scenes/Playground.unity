@@ -4034,18 +4034,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 612578521}
   m_Mesh: {fileID: -4294552576481311072, guid: 70dbd6f7b9992504e8e39ab0b8906b98, type: 3}
---- !u!114 &613529355
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8075872245456894630}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8787ec53fc7a504ca974c7200441efb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &615871241
 GameObject:
   m_ObjectHideFlags: 0
@@ -11260,7 +11248,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7767441, y: 1}
+    m_SensorSize: {x: 1.7781155, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -30422,7 +30410,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8258147336922905210}
-  - component: {fileID: 613529355}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
