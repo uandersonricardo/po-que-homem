@@ -1,0 +1,302 @@
+fileFormatVersion: 2
+guid: 066a93c24b32d184783a4fb2ddd5bf2f
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bar_completo2Atlas1
+    second: {fileID: 2100000, guid: ba87cf2421f544c40a8b3f13e8835307, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bar_completo2Atlas2
+    second: {fileID: 2100000, guid: ea7f98cae43d5a0488e23e18d69b6043, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bar_completo2Mat_Arcade_SI
+    second: {fileID: 2100000, guid: 9b66080ec1e2b554db7085b0f92487ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bar_completo2Mat_Base3
+    second: {fileID: 2100000, guid: f2b4525a1ccb2264f91e63b01377c600, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bar_completo2Mat_Botellas
+    second: {fileID: 2100000, guid: 66e8d1402781a1e46ab023b285daa9c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bar_completo2Mat_Expendedora
+    second: {fileID: 2100000, guid: 5a689da463d538747bddef8b7155b19b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bar_completo2Mat_Tubo
+    second: {fileID: 2100000, guid: 4008ef1d71d537c40a3041f15f581f32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bar_completo2Mat_Vasos
+    second: {fileID: 2100000, guid: 96f9ba78b3218e7478ecc51f52e325ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bar_completo2Mat_ZonaBar
+    second: {fileID: 2100000, guid: 821435b7114b33a498f0ba9846988835, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_ArcadeSF
+    second: {fileID: 2100000, guid: 6a83dbd2da7844b408f0dc6e37c5431f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_RobotBar
+    second: {fileID: 2100000, guid: 345083175586f994381bde38278622db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atlas_naza1
+    second: {fileID: 2100000, guid: ef046d086b3bdd84596ddb480eb1a55b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shobot_rig3Mat_Shobot
+    second: {fileID: 2100000, guid: 0d235103425f35646a9da1e02a09527b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: texture_pool1
+    second: {fileID: 2100000, guid: 967af780561bd74409393bf4f3fe1364, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: texture_pool4
+    second: {fileID: 2100000, guid: 86a3cf01469f9a44d9f747b51730373c, type: 2}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Bar_completo2Atlas1_baseColor
+    second: {fileID: 2800000, guid: a852e03beb4760c409e66f0ab9c72be3, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Bar_completo2Atlas1_emissive
+    second: {fileID: 2800000, guid: 5fd426abea4b377478cb96dad91e0f98, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Bar_completo2Atlas1_metallicRoughness.standard
+    second: {fileID: 2800000, guid: f42ba84c0c57d6f4792694fe9a7eaa55, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Bar_completo2Atlas2_baseColor
+    second: {fileID: 2800000, guid: 2a295c51110b2d149a22e33221302685, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Bar_completo2Atlas2_emissive
+    second: {fileID: 2800000, guid: a5500b4e55511fe4492e04bb90052f95, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Bar_completo2Atlas2_metallicRoughness.standard
+    second: {fileID: 2800000, guid: 6f8bb5eb006f04e49ac082f0cfb44d61, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Bar_completo2Atlas2_normal.normal
+    second: {fileID: 2800000, guid: a2b2d8c694969124599eb8af7a8baebb, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Bar_completo2Mat_Arcade_SI_baseColor
+    second: {fileID: 2800000, guid: 08136d8a30bf53a4fad5f54313e1e866, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Bar_completo2Mat_Arcade_SI_emissive
+    second: {fileID: 2800000, guid: 32b1f2195d3fce54e904a0e42c921cf2, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Bar_completo2Mat_Arcade_SI_metallicRoughness.standard
+    second: {fileID: 2800000, guid: 22794b9ffc4cac040a0163b711b52329, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Bar_completo2Mat_Base3_baseColor
+    second: {fileID: 2800000, guid: 02cbc4901f368554d8a5a5dac7cb6a31, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Bar_completo2Mat_Base3_emissive
+    second: {fileID: 2800000, guid: 3a54ac8ce64111a4082a2ce86b8348bb, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Bar_completo2Mat_Base3_metallicRoughness.standard
+    second: {fileID: 2800000, guid: 6ba172d4a1be17d48a819fdcab320b4c, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Bar_completo2Mat_Botellas_baseColor
+    second: {fileID: 2800000, guid: 12c22b54b7b90ca4792bff7bc83c1862, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Bar_completo2Mat_Botellas_emissive
+    second: {fileID: 2800000, guid: aa11f8a891b59de4eac6d51ff266f0ab, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Bar_completo2Mat_Botellas_metallicRoughness.standard
+    second: {fileID: 2800000, guid: 014d631e86625614a90e9fd9784f5291, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Bar_completo2Mat_Expendedora_baseColor
+    second: {fileID: 2800000, guid: e6dc1c14bcf03954299b537b26e3ea73, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Bar_completo2Mat_Expendedora_emissive
+    second: {fileID: 2800000, guid: e07d67320fb2da74f916a9692c64ce46, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Bar_completo2Mat_Expendedora_metallicRoughness.standard
+    second: {fileID: 2800000, guid: 3346803a5319ab64283f06c1beaec1df, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Bar_completo2Mat_Tubo_baseColor
+    second: {fileID: 2800000, guid: d80a657988ee6864bade1fbd8e1a0add, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Bar_completo2Mat_Tubo_emissive
+    second: {fileID: 2800000, guid: 771199885d4e7c34d90df1862db60e75, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Bar_completo2Mat_Tubo_metallicRoughness.standard
+    second: {fileID: 2800000, guid: 4d93595a9cef68947878d0f165350245, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Bar_completo2Mat_Vasos_baseColor
+    second: {fileID: 2800000, guid: d73ca70fd50b4b5439244b5762ec01df, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Bar_completo2Mat_Vasos_metallicRoughness.standard
+    second: {fileID: 2800000, guid: 335585421d1bb3347a3bb1b4be962644, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Bar_completo2Mat_ZonaBar_baseColor
+    second: {fileID: 2800000, guid: c8f6085ef754732458e76ec18a5d0b8e, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Bar_completo2Mat_ZonaBar_emissive
+    second: {fileID: 2800000, guid: 7294413fd47cb044ea91823879c5fa90, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Bar_completo2Mat_ZonaBar_metallicRoughness.standard
+    second: {fileID: 2800000, guid: bbb6b2681a5c7f7408d471839cd4cfdf, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Mat_ArcadeSF_baseColor
+    second: {fileID: 2800000, guid: 59e36e84312a33b43b4013c84565264e, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Mat_ArcadeSF_emissive
+    second: {fileID: 2800000, guid: 0ad4e5ddb51c444429a977882c23855a, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Mat_ArcadeSF_metallicRoughness.standard
+    second: {fileID: 2800000, guid: 18cc5fd6125495e40ae70a1bfa58dcbd, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Mat_RobotBar_baseColor
+    second: {fileID: 2800000, guid: 6be8434206674ca4abefe24e47f9a29a, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Mat_RobotBar_emissive
+    second: {fileID: 2800000, guid: 2b8126a9b29fb894a9b6d5b98c129060, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Mat_RobotBar_metallicRoughness.standard
+    second: {fileID: 2800000, guid: c5a233087d0117847a0a5e942ad1bc7f, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Mat_RobotBar_normal.normal
+    second: {fileID: 2800000, guid: 08396a7626629fc4e97079338d8c0932, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: atlas_naza1_baseColor
+    second: {fileID: 2800000, guid: 5c6dda1a9e9a21845b4b620719195ad2, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: atlas_naza1_emissive
+    second: {fileID: 2800000, guid: 2a72c4182cfe77e4d96c8d4a9fe63f2d, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: atlas_naza1_metallicRoughness.standard
+    second: {fileID: 2800000, guid: f3d8b8c51b0624947912be4a135666e4, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: atlas_naza1_normal.normal
+    second: {fileID: 2800000, guid: 4af4587e78ae8c345b671242380246f4, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: shobot_rig3Mat_Shobot_baseColor
+    second: {fileID: 2800000, guid: 5b9b8b7ec115bbf4f814479f6f8f9395, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: shobot_rig3Mat_Shobot_emissive
+    second: {fileID: 2800000, guid: 490cf42b6ecf0c146b55cbed730200d5, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: shobot_rig3Mat_Shobot_metallicRoughness.standard
+    second: {fileID: 2800000, guid: b36796600813e1040937ff1a3d83a060, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: texture_pool1_baseColor
+    second: {fileID: 2800000, guid: 66b74b20014f75446b69c6299e67290d, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: texture_pool1_metallicRoughness.standard
+    second: {fileID: 2800000, guid: 36a1ed6ed32f0a649870f04ba8ed0431, type: 3}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: aecd2106718f2444db3ca21345da2cef, type: 3}
+  reverseAxis: 0
+  renderPipeline: 0
