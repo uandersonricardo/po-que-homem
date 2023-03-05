@@ -1,0 +1,11 @@
+Model Information:
+* title:	Chopper’s Night - Cyberpunk Nightclub
+* source:	https://sketchfab.com/3d-models/choppers-night-cyberpunk-nightclub-c9f96afb6e53454f8296d2126a22793d
+* author:	LeandroRiquelme (https://sketchfab.com/LeandroRiquelme)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Chopper’s Night - Cyberpunk Nightclub" (https://sketchfab.com/3d-models/choppers-night-cyberpunk-nightclub-c9f96afb6e53454f8296d2126a22793d) by LeandroRiquelme (https://sketchfab.com/LeandroRiquelme) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
