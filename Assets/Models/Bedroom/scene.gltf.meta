@@ -1,0 +1,192 @@
+fileFormatVersion: 2
+guid: f81be19f725be84418da54a15cb007a0
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bedside_Table
+    second: {fileID: 2100000, guid: 3b7af4950c5401247a7bebf39b87c9de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chair
+    second: {fileID: 2100000, guid: 8248f00db088b6546a0c914c4f00f925, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Computer
+    second: {fileID: 2100000, guid: 14b899f8565ee3545ab4495df8bcb48f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Desk
+    second: {fileID: 2100000, guid: 4a8fdf7dd35868647941f12898b58136, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lamp_Stand
+    second: {fileID: 2100000, guid: 2907b218c17ce744ea0aeb42883e322a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tv_Stand
+    second: {fileID: 2100000, guid: 4698cc682f8f68245b2b91365db58a8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall
+    second: {fileID: 2100000, guid: dc6fd2c5cadb3964190ae7e811677d8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material
+    second: {fileID: 2100000, guid: 52b34283e79ae274fbb9c5875d7b3875, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_5
+    second: {fileID: 2100000, guid: d914c50b4bc2e5146a5242e3b4f237f9, type: 2}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Bedside_Table_baseColor
+    second: {fileID: 2800000, guid: 7c0bace9da2cdfd4d901e5d532a12985, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Bedside_Table_metallicRoughness.standard
+    second: {fileID: 2800000, guid: 35f9b0048b6046245ae2c4ec2e802717, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Bedside_Table_normal.normal
+    second: {fileID: 2800000, guid: 75cb2caced7d13f4d8e179bb4f5eedd0, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Chair_baseColor
+    second: {fileID: 2800000, guid: 46178ea7d69eef446a16b16d80637e51, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Chair_metallicRoughness.standard
+    second: {fileID: 2800000, guid: e913b543867043544a1bc0f7803c392d, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Chair_normal.normal
+    second: {fileID: 2800000, guid: 847a1257aaec71e45a0cdf4b1b6c3388, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Computer_baseColor
+    second: {fileID: 2800000, guid: 9770e8701184ee64abf8aea393830cd3, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Computer_metallicRoughness.standard
+    second: {fileID: 2800000, guid: 729d4058906c4ea4e846a7c1fe07439a, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Computer_normal.normal
+    second: {fileID: 2800000, guid: d6c7620e2747dfe4aac1e75ce22a8250, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Desk_baseColor
+    second: {fileID: 2800000, guid: e056907deb1ad77419e9eeff3b1d5252, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Desk_metallicRoughness.standard
+    second: {fileID: 2800000, guid: 9a7c7e0370394c94a889b86c4d485206, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Desk_normal.normal
+    second: {fileID: 2800000, guid: dcc3bbd56562f2447ba496b5b0c7fd8d, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Lamp_Stand_baseColor
+    second: {fileID: 2800000, guid: 4d9fe9cf9e8a85a46bcc2fe2366d88e2, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Lamp_Stand_emissive
+    second: {fileID: 2800000, guid: 5025b56a041a5a447b67c6ee04828ec8, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Tv_Stand_baseColor
+    second: {fileID: 2800000, guid: ac4c69a273e7a744085f0be461738e39, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Tv_Stand_emissive
+    second: {fileID: 2800000, guid: 57de57253ad265d4a9ec3b1cd0c2e002, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Tv_Stand_metallicRoughness.standard
+    second: {fileID: 2800000, guid: 55686a1ed4a3070419dedb5573d2ef55, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Tv_Stand_normal.normal
+    second: {fileID: 2800000, guid: 98edf158dbc7c654ca32817a10fe1076, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Wall_baseColor
+    second: {fileID: 2800000, guid: 0cf727f2fc81e1e45b4579e456528611, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Wall_metallicRoughness.standard
+    second: {fileID: 2800000, guid: e3fa3360b0aaec9408a70d7f07f2224a, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Wall_normal.normal
+    second: {fileID: 2800000, guid: 3d0d4e4b1778e164d8a3a67931ff2a0f, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: material_5_baseColor
+    second: {fileID: 2800000, guid: c668dcbeb6c8fd6489945efb084a0a5a, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: material_5_metallicRoughness.standard
+    second: {fileID: 2800000, guid: b83f2878898209243b43eb7cb66210b7, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: material_5_normal.normal
+    second: {fileID: 2800000, guid: 8a1996829ed450e4faacb8b62fe33679, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: material_baseColor
+    second: {fileID: 2800000, guid: 6f935027dda533c4aa49eaeebf506f96, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: material_metallicRoughness.standard
+    second: {fileID: 2800000, guid: abb2e654434004f4fa91d08ec5855c47, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: material_normal.normal
+    second: {fileID: 2800000, guid: ef0b3aaf4da7af245a1274be0c7bad8e, type: 3}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: aecd2106718f2444db3ca21345da2cef, type: 3}
+  reverseAxis: 0
+  renderPipeline: 0
