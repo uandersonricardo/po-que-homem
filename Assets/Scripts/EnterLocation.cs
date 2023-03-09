@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using Cinemachine;
 
-// Similar ao Detect, porém específico para locais
+// Similar ao Detect, porï¿½m especï¿½fico para locais
 public class EnterLocation : MonoBehaviour
 {
     private bool isClose;
@@ -64,17 +64,17 @@ public class EnterLocation : MonoBehaviour
 
     public void SetLocationCamera()
     {
+        FindObjectOfType<PlayerInput>().enabled = false;
         vcam.Follow = transform;
         vcam.LookAt = transform;
         vcam.GetCinemachineComponent<CinemachineTransposer>().m_FollowOffset = offset;
-        FindObjectOfType<PlayerInput>().enabled = false;
     }
 
     public void SetDefaultCamera()
     {
+        FindObjectOfType<PlayerInput>().enabled = true;
         vcam.Follow = defaultFollow;
         vcam.LookAt = defaultLookAt;
         vcam.GetCinemachineComponent<CinemachineTransposer>().m_FollowOffset = defaultOffset;
-        FindObjectOfType<PlayerInput>().enabled = true;
     }
 }

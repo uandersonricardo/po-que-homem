@@ -1,0 +1,532 @@
+fileFormatVersion: 2
+guid: 5398d5d30cb293d4fabbc9397fb22ced
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FRAME
+    second: {fileID: 2100000, guid: 6f574c0fbca8d514789af42a3d527a91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HIGHCHAIRR
+    second: {fileID: 2100000, guid: 48a3c787c275d8346b02487b71b3f0cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MANIMAGE
+    second: {fileID: 2100000, guid: d87e4863ac813c143b404c1915f792c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WOMANIMAGE
+    second: {fileID: 2100000, guid: f9ee6aef36ae86c4da038876749cea90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: alarmtexture
+    second: {fileID: 2100000, guid: 7d7509107091dee479efa69f7881e734, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: amptexture
+    second: {fileID: 2100000, guid: 6eaae85c894616544ae87b52dc7d4105, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: barstool
+    second: {fileID: 2100000, guid: 32f9bab8ee0a8cf4db40235346db13fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: barstoolcushion
+    second: {fileID: 2100000, guid: 8e74742c6e46c1c4d98cafa3f283a173, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blackglossscreen
+    second: {fileID: 2100000, guid: 91200b4a5c69c9d4db4988f814d3b6b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blackimage
+    second: {fileID: 2100000, guid: 3342176388745994ab128190f88a29fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinds
+    second: {fileID: 2100000, guid: f9d980cfab5549144a272c582f9b8992, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blindstop
+    second: {fileID: 2100000, guid: 5cc6478e00b6f1141aeb7c63b571bee5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn32
+    second: {fileID: 2100000, guid: c421ca41d009e574f89814572f76368c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn37
+    second: {fileID: 2100000, guid: 00edfb14906dfbc44b291e22ec0d9c76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn38
+    second: {fileID: 2100000, guid: 2e93dacf3c22c5c47ac31a10df432066, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn41
+    second: {fileID: 2100000, guid: 9abf5c2c796ec2943bcc435b2fefe724, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn8
+    second: {fileID: 2100000, guid: 9bc8947ec719bc74893ad6ff9c6a9107, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bluecd
+    second: {fileID: 2100000, guid: 6bd89e147b8a86342b702471c1aaa35b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bookcolours
+    second: {fileID: 2100000, guid: 2a5ed99de323ed143b5764e1552340b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bottledarkblue
+    second: {fileID: 2100000, guid: f1a8054077f004140bcf9a32f26203e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bottlegreen
+    second: {fileID: 2100000, guid: d3a0f6bc140745a44a022bbf1839208b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cassettedecktexture
+    second: {fileID: 2100000, guid: 751f97b8a99bb98408cb7230d1b7af77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cdblack
+    second: {fileID: 2100000, guid: 03dd8764175695e4fb83b187213c880a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cdboxtransparerent
+    second: {fileID: 2100000, guid: e158a3b4eecea2c49b9647f4666003d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cdred
+    second: {fileID: 2100000, guid: 25a6dcb383f3fcb459bdc1ec0e694769, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cork
+    second: {fileID: 2100000, guid: 8940792b6b1a2404cbf87dab498a9a57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: countertop
+    second: {fileID: 2100000, guid: 6b777a95ae0aa06468b74a2ae12436f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: frame2
+    second: {fileID: 2100000, guid: 123f562eb5decae44ab9225e5a526a3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: frame3
+    second: {fileID: 2100000, guid: 2be94b94b2365e14b805526059713d86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: frame4
+    second: {fileID: 2100000, guid: 0263f3c9ba88f0a46b944a449e5d0e1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: frame5
+    second: {fileID: 2100000, guid: 93ebdb032754d9a4fb3ac9793acbcdb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: frame6
+    second: {fileID: 2100000, guid: e14b2b4f51aef1b4baa823853f5b2785, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: frame7
+    second: {fileID: 2100000, guid: 966cad734408c7345be7ccc741d4f00d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: frameglass
+    second: {fileID: 2100000, guid: cf812c4a71158b9459953ea6a2670daa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glasses
+    second: {fileID: 2100000, guid: 119618e67727224429ed621d1d4325f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glosswall
+    second: {fileID: 2100000, guid: 40e07f321b193b74bb63f66fcc47a3a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glossyscreen
+    second: {fileID: 2100000, guid: fd6d8fed391e95141be3046a0b5a9353, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: greencd
+    second: {fileID: 2100000, guid: 4f3c7e15f7e4b144da629f60fb3037be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: holeblack
+    second: {fileID: 2100000, guid: 8598e1afced9ae144833d91c6aa22863, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kitchenwindow
+    second: {fileID: 2100000, guid: a2d5f5ef8c47dea409c951809e83c194, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: knifeblock
+    second: {fileID: 2100000, guid: 27df4fca4202c1d4e9bb7c50705daac2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 476da7aaef461bc459164c8f06625d7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert37
+    second: {fileID: 2100000, guid: fb1a1529fa81b004c9e629d03b1a29c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert5
+    second: {fileID: 2100000, guid: f675390427a99bc4387c843da7b6b954, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert9
+    second: {fileID: 2100000, guid: a71e9c228b15efe439eb7a6e899c119c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lapmshade
+    second: {fileID: 2100000, guid: e11ae72ee09ce124687a84e34337691e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leatheragain
+    second: {fileID: 2100000, guid: b033c569918be8141884c9e7c1caacdc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leatherchairlegs
+    second: {fileID: 2100000, guid: 5b4d2be67195a5a4e8277fe7372a5ef5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lense
+    second: {fileID: 2100000, guid: 0c71d64bc5f3bca41b5c0e7d08fe89bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lightswitch
+    second: {fileID: 2100000, guid: f228232bbf833e5489aff61fbc7cb607, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lightswitch1
+    second: {fileID: 2100000, guid: ea5c1def6999fd44da9ad2575f4960f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material
+    second: {fileID: 2100000, guid: 3e6faf666276edb4f8c68485a33e2d8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metalpoletable
+    second: {fileID: 2100000, guid: 9bf31ae46cc871f41ab863c5903ed478, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: microwavegrey
+    second: {fileID: 2100000, guid: c107dc45898c99a42833e1789eaae0f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: musicleg
+    second: {fileID: 2100000, guid: 6f81d80dc3036f640aa78cfbff014c47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: newyorkskyline
+    second: {fileID: 2100000, guid: 728de3b9613192944ba5bea8a1c01e9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phongE10
+    second: {fileID: 2100000, guid: 1eacfba8af7a3e7469e4551e38d6c1e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phongE2
+    second: {fileID: 2100000, guid: 14914ad03b69896458743c7f625bbe64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phongE8
+    second: {fileID: 2100000, guid: 848fd54fbc31e0946a376c6271c24cc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pioneeretexturw
+    second: {fileID: 2100000, guid: 85a701b27125e9d4b8e40329bf31f868, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: poletablletopbot
+    second: {fileID: 2100000, guid: ce5f7647abff90040ac4cd9577424e41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: preamptexture
+    second: {fileID: 2100000, guid: 955b4b58ba3a48248a62c905395ae1e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: scopeblackplastic
+    second: {fileID: 2100000, guid: fa8797116a0071f4abc779b1bc539010, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: scopeblackversiontwo
+    second: {fileID: 2100000, guid: 4c5898f757500f143b19449e34e0656a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: scopelegsilver
+    second: {fileID: 2100000, guid: 6849b7d9a98ca624bb3bddc7717b25af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: scopesmetalplastic
+    second: {fileID: 2100000, guid: b7d920a1afa13a949a3dfe959af6defe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shelftransparrent
+    second: {fileID: 2100000, guid: 30d996ca9d6244340bd2a9909ca023ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shinykitchen
+    second: {fileID: 2100000, guid: 983e7959b6eea1e42a597e0adbbab951, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sofacushions
+    second: {fileID: 2100000, guid: 67465c78466be084ab76ffae85775d04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sofalegs
+    second: {fileID: 2100000, guid: ed0c6dfe6fe0d6b44b39754f30902806, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: speakerlegs
+    second: {fileID: 2100000, guid: e55b3b1c13146094db7db675e0ef5345, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: speakers
+    second: {fileID: 2100000, guid: ac1ca40bea75c0d46b8ab3c370170f6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: speakerscrews
+    second: {fileID: 2100000, guid: 3fb62b128ce91674990c31ac6d6cc7e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: speakersdark
+    second: {fileID: 2100000, guid: bda4924fc90dbf84ab3c527822ddd809, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: speakerwood
+    second: {fileID: 2100000, guid: 7f18618fd00c43a4ebe0d369fc70a663, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stainlesssteel
+    second: {fileID: 2100000, guid: 80e498a2b1cd82f4b801ed8d650be89e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: towel
+    second: {fileID: 2100000, guid: 30105435edd53ab41a5de352d3c3b31a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tvcolour
+    second: {fileID: 2100000, guid: 8cd43c0e5e30ba143a369d9c6918eb9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tvscreen
+    second: {fileID: 2100000, guid: e1b4acb33bc49f246b4f31d99d60c398, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: whitecd
+    second: {fileID: 2100000, guid: 39cf6df80165ebf41827d57c7e4d68ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: whitewall
+    second: {fileID: 2100000, guid: 71a7a81dfacf95041814888e687219bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window
+    second: {fileID: 2100000, guid: 87f982e769dc9ed42b354c4741757e4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wineglassblue
+    second: {fileID: 2100000, guid: 291b2599f0463354b95f4d509037061e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: winelable
+    second: {fileID: 2100000, guid: d58910baef098da4f8667d78500afcd0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: winelidblue
+    second: {fileID: 2100000, guid: cd29aca8cbd409e4a93e950e6890d0c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: winelidpink
+    second: {fileID: 2100000, guid: 2d0530fa1e23b564ab2e4d0125205e51, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: woman
+    second: {fileID: 2100000, guid: 2b8ba32823e1d894fb73f50c5c42922d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yellowcd
+    second: {fileID: 2100000, guid: 9fbae167e76c5f64a8a81402a8d5e03f, type: 2}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: HIGHCHAIRR_baseColor
+    second: {fileID: 2800000, guid: e6825239e1534c549917fc250c87216a, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: MANIMAGE_baseColor
+    second: {fileID: 2800000, guid: 8fb14f20aa7557a449152679f5054d3e, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: WOMANIMAGE_baseColor
+    second: {fileID: 2800000, guid: 9b767757867a5df4e8c7f7b3b3d20f8c, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: alarmtexture_baseColor
+    second: {fileID: 2800000, guid: f6e8f5838de129e46821c8ec0d7d591b, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: amptexture_baseColor
+    second: {fileID: 2800000, guid: 36ce1718ccda5c849beacceca9dd9b38, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: blinn32_baseColor
+    second: {fileID: 2800000, guid: 3ac5efa193350ad42a33dfa9569a6c98, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: blinn41_baseColor
+    second: {fileID: 2800000, guid: 14221fae003a39c409834211b17461fa, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: bookcolours_baseColor
+    second: {fileID: 2800000, guid: 7eb14c11abd258a4e8cc1eef9841f0c6, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: cassettedecktexture_baseColor
+    second: {fileID: 2800000, guid: 7b46a9c0cf7a9354c9e0833169719594, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: lambert9_baseColor
+    second: {fileID: 2800000, guid: 83fd6ffc1e695b64db9b1737da7d430d, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: material_baseColor
+    second: {fileID: 2800000, guid: 0128ef92bf9080c479cf436333e3619f, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: newyorkskyline_baseColor
+    second: {fileID: 2800000, guid: fb5ff39aa1857c5459fc579e578768a6, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: pioneeretexturw_baseColor
+    second: {fileID: 2800000, guid: cd34044e8a8fd8442a5f86607fccea26, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: preamptexture_baseColor
+    second: {fileID: 2800000, guid: 0fcb5b25d2ec00344b332d0e4b2027ac, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: speakerwood_baseColor
+    second: {fileID: 2800000, guid: 23d419ffb762e60499afe9b98ac870ff, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: woman_baseColor
+    second: {fileID: 2800000, guid: c4987e9164744724eaf48bbddb0f4f6b, type: 3}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: aecd2106718f2444db3ca21345da2cef, type: 3}
+  reverseAxis: 0
+  renderPipeline: 0

@@ -1,3 +1,4 @@
 public enum ItemType {
-    Dice = 0
+    Dice = 0,
+    CD = 1
 };

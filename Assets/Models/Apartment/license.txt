@@ -1,0 +1,11 @@
+Model Information:
+* title:	American Psycho apartment
+* source:	https://sketchfab.com/3d-models/american-psycho-apartment-b7bb8d0f28ef4cb796ef5bcb01df44f9
+* author:	mkelly589370 (https://sketchfab.com/mkelly589370)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "American Psycho apartment" (https://sketchfab.com/3d-models/american-psycho-apartment-b7bb8d0f28ef4cb796ef5bcb01df44f9) by mkelly589370 (https://sketchfab.com/mkelly589370) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
