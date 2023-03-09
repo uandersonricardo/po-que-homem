@@ -7,26 +7,27 @@ using Cinemachine;
 public class Detect : MonoBehaviour
 {
     private bool isClose;
-    private CinemachineVirtualCamera vcam;
-    private Transform defaultFollow;
-    private Transform defaultLookAt;
-    private Vector3 defaultOffset;
+    private CinemachineVirtualCamera mainCamera;
     private Man man;
-    public GameObject heart;
-    public Vector3 cameraOffset; 
+    public GameObject ballon;
+    public CinemachineVirtualCamera virtualCamera;
     public Flirt flirtUi;
     public Talk talkUi;
+    public AudioSource playSource;
+    public bool playIfGiven;
 
     // Start is called before the first frame update
     void Start()
     {
         isClose = false;
         man = GetComponentInParent<Man>();
-        vcam = FindObjectOfType<CinemachineVirtualCamera>();
-        heart.SetActive(false);
-        defaultFollow = vcam.Follow;
-        defaultLookAt = vcam.LookAt;
-        defaultOffset = vcam.GetCinemachineComponent<CinemachineTransposer>().m_FollowOffset;
+        mainCamera = GameObject.Find("Player Follow Camera").GetComponent<CinemachineVirtualCamera>();
+        ballon.SetActive(false);
+
+        InventoryItem inventoryItem = Inventory.GetItem(man.itemToGive);
+        if (playIfGiven && playSource && inventoryItem != null && inventoryItem.isGiven) {
+            playSource.Play();
+        }
     }
 
     // Update is called once per frame
@@ -43,7 +44,7 @@ public class Detect : MonoBehaviour
         if (other.gameObject.tag == "Player" && ContactList.GetContact(man.type) == null)
         {
             isClose = true;
-            heart.SetActive(true);
+            ballon.SetActive(true);
         }
     }
 
@@ -52,7 +53,7 @@ public class Detect : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             isClose = false;
-            heart.SetActive(false);
+            ballon.SetActive(false);
         }
     }
 
@@ -68,6 +69,10 @@ public class Detect : MonoBehaviour
         {
             Inventory.GiveItem(inventoryItem);
             talkUi.StartTalking(new List<string> { man.thankText }, man.type);
+
+            if (playSource) {
+                playSource.Play();
+            }
         }
         else
         {
@@ -78,15 +83,13 @@ public class Detect : MonoBehaviour
 
     public void SetFlirtCamera()
     {
-        vcam.Follow = transform;
-        vcam.LookAt = transform;
-        vcam.GetCinemachineComponent<CinemachineTransposer>().m_FollowOffset = cameraOffset;
+        virtualCamera.gameObject.SetActive(true);
+        mainCamera.gameObject.SetActive(false);
     }
 
     public void SetDefaultCamera()
     {
-        vcam.Follow = defaultFollow;
-        vcam.LookAt = defaultLookAt;
-        vcam.GetCinemachineComponent<CinemachineTransposer>().m_FollowOffset = defaultOffset;
+        virtualCamera.gameObject.SetActive(false);
+        mainCamera.gameObject.SetActive(true);
     }
 }

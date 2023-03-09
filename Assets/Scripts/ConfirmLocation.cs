@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
+using TMPro;
 
 public class ConfirmLocation : MonoBehaviour
 {
     private int selectedButton = 0;
     public GameObject[] buttons;
-
+    public TextMeshProUGUI localText;
     private string local = "";
     private string sceneName = "";
 
@@ -19,14 +20,14 @@ public class ConfirmLocation : MonoBehaviour
         {"Bedroom","Quarto"},
         {"Bar", "Bar"},
         {"AnimeStore", "Lojinha Otaku"},
-        {"Playground", "Praça" },
+        {"Playground", "PraÃ§a" },
     };
 
     public void SetScene(string scene)
     {
         local = sceneToString[scene];
         sceneName = scene;
-        gameObject.GetComponentInChildren<Text>().text = "Ir para " + local + "?";
+        localText.text = local;
     }
 
     // Start is called before the first frame update
@@ -62,21 +63,45 @@ public class ConfirmLocation : MonoBehaviour
         else if (Keyboard.current.enterKey.wasPressedThisFrame)
         {
             gameObject.SetActive(false);
-            FindObjectOfType<EnterLocation>().SetDefaultCamera();
             if (selectedButton == 0)
             {
                 UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
             }
+            else
+            {
+                gameObject.SetActive(false);
+                FindObjectOfType<EnterLocation>().SetDefaultCamera();
+            }
         }
     }
 
-    public void SelectButton(int button)
+    void SelectButton(int button, bool playSound = true)
     {
-        for (int i = 0; i < buttons.Length; i++)
-        {
-            buttons[i].GetComponent<RawImage>().color = new Color(1f, 1f, 1f, 0.5f);
+        selectedButton = button;
+
+        if (playSound) {
+            SoundManager.Instance.PlaySound("Button");
         }
 
-        buttons[selectedButton].GetComponent<RawImage>().color = Color.white;
+        for (int i = 0; i < buttons.Length; i++)
+        {
+            DisableButton(i);
+        }
+
+        EnableButton(button);
+    }
+
+    void DisableButton(int button)
+    {
+        buttons[button].GetComponent<Image>().color = new Color(0f, 0f, 0f, 0.75f);
+        buttons[button].GetComponentInChildren<TextMeshProUGUI>().color = Color.white;
+        buttons[button].transform.Find("Selected").gameObject.SetActive(false);
+    }
+
+    void EnableButton(int button)
+    {
+        buttons[button].GetComponent<Image>().color = new Color(1f, 1f, 1f);
+        buttons[button].GetComponentInChildren<TextMeshProUGUI>().color = Color.black;
+        buttons[button].transform.Find("Selected").gameObject.SetActive(true);
     }
 }

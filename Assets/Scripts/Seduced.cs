@@ -6,7 +6,6 @@ using TMPro;
 
 public class Seduced : MonoBehaviour
 {
-    private GameObject player;
     public RuntimeAnimatorController controller;
     public static GameObject character;
     public static string message;
@@ -14,8 +13,7 @@ public class Seduced : MonoBehaviour
 
     void Awake()
     {
-        player = GameObject.FindGameObjectWithTag("Player");
-        player.SetActive(false);
+
     }
 
     // Start is called before the first frame update
@@ -38,7 +36,6 @@ public class Seduced : MonoBehaviour
     IEnumerator BackToPreviousScene()
     {
         yield return new WaitForSeconds(5);
-        player.SetActive(true);
         SceneManager.LoadScene(previousScene);
     }
 
