@@ -21,6 +21,7 @@ public class ConfirmLocation : MonoBehaviour
         {"Bar", "Bar"},
         {"AnimeStore", "Lojinha Otaku"},
         {"Playground", "Praça" },
+        {"Apartment", "Apartamento"}
     };
 
     public void SetScene(string scene)
