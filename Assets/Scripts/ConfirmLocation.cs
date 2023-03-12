@@ -17,7 +17,7 @@ public class ConfirmLocation : MonoBehaviour
     {
         {"Classroom","Sala de Aula"},
         {"Gym", "Academia"},
-        {"Bedroom","Quarto"},
+        {"Player Apartment","Casa"},
         {"Bar", "Bar"},
         {"AnimeStore", "Lojinha Otaku"},
         {"Playground", "Praça" },
