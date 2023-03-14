@@ -1,0 +1,11 @@
+Model Information:
+* title:	Game Ready City Building
+* source:	https://sketchfab.com/3d-models/game-ready-city-building-2bd7122c0f774cb48565187848154436
+* author:	ModelMaker (https://sketchfab.com/mireubay1)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Game Ready City Building" (https://sketchfab.com/3d-models/game-ready-city-building-2bd7122c0f774cb48565187848154436) by ModelMaker (https://sketchfab.com/mireubay1) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

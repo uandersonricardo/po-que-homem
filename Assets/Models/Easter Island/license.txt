@@ -1,0 +1,11 @@
+Model Information:
+* title:	Easter Island Moai
+* source:	https://sketchfab.com/3d-models/easter-island-moai-ed46ca07ded04a61af7be9fcd6ed889c
+* author:	Tirto.Suwondo (https://sketchfab.com/Tirto.Suwondo)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Easter Island Moai" (https://sketchfab.com/3d-models/easter-island-moai-ed46ca07ded04a61af7be9fcd6ed889c) by Tirto.Suwondo (https://sketchfab.com/Tirto.Suwondo) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

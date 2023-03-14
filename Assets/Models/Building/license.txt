@@ -1,0 +1,11 @@
+Model Information:
+* title:	Game Ready Mid Poly Building
+* source:	https://sketchfab.com/3d-models/game-ready-mid-poly-building-dc4f6a49d8a7462b9349936b8dc7256e
+* author:	ModelMaker (https://sketchfab.com/mireubay1)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Game Ready Mid Poly Building" (https://sketchfab.com/3d-models/game-ready-mid-poly-building-dc4f6a49d8a7462b9349936b8dc7256e) by ModelMaker (https://sketchfab.com/mireubay1) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

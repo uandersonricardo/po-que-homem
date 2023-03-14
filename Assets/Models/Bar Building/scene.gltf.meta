@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: b4b1a09f1fce7b54faabf304952d8461
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: air_conditioner1
+    second: {fileID: 2100000, guid: fc2ea683368e503418b24e87381e7adb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basepipeholder
+    second: {fileID: 2100000, guid: f40eb185d8cd4b147be476232f090964, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cautiondoor1
+    second: {fileID: 2100000, guid: 9e81886c181e42c48bca18179f573933, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doorway
+    second: {fileID: 2100000, guid: b4e0aa1802854ce4e846a20233518e24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gamesign
+    second: {fileID: 2100000, guid: db1de64bb6fecb0449e0e1080b49df87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gasspipes
+    second: {fileID: 2100000, guid: 8d93bc53df48ef848b9fac91cf137a82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass3
+    second: {fileID: 2100000, guid: e1baa7f4bf418fa46ba9789731437b5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: left_of_door1
+    second: {fileID: 2100000, guid: 5c2e02b6a831dbe43a854187c78eca26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nightclub
+    second: {fileID: 2100000, guid: 4970aad1e71ff484db5931efc9968742, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: puddles
+    second: {fileID: 2100000, guid: f627afe445f825340815e33d6fb31629, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rail
+    second: {fileID: 2100000, guid: ec1c2d79229a4fa4e86759aca6b5233b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: right_of_door1
+    second: {fileID: 2100000, guid: f1559e73d64ed1c4dbfed5d3455289f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shelfs
+    second: {fileID: 2100000, guid: 06c098d871278ae4b9b094ab2863675d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: side_walk
+    second: {fileID: 2100000, guid: 06557065929246148a61393e0be0152d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sign_in_air
+    second: {fileID: 2100000, guid: 2280986ac7e872f4ca0f65711d988b20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: signstand2
+    second: {fileID: 2100000, guid: 7556d43906ef26a4eb211af797801a70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: soda1
+    second: {fileID: 2100000, guid: ce6552d2ac4b2614aa6ee363a554d9d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: soda2
+    second: {fileID: 2100000, guid: 39928778579af4447aaa079e1cff90fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: soda3
+    second: {fileID: 2100000, guid: ca801c743df17e64a85a98cc5b0d2ee0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: soda4
+    second: {fileID: 2100000, guid: d0d93af527636af46a4270facea551f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: soda_005
+    second: {fileID: 2100000, guid: c0454b3e4f12c0c449231613ef88ea8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: soda_006
+    second: {fileID: 2100000, guid: b8d667d63e898124d8320407ec6c9435, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: soda_007
+    second: {fileID: 2100000, guid: 2657f3e52a120d549a7882a0dd99e540, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vendingmachine
+    second: {fileID: 2100000, guid: 6ec81c11349de704d8f887d3122b7cc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: videogamestore
+    second: {fileID: 2100000, guid: 9a6316ae33be46149b87d421963b9b37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wires
+    second: {fileID: 2100000, guid: ec463f0b89f03b242a2658cb0c145ef0, type: 2}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: air_conditioner1_baseColor
+    second: {fileID: 2800000, guid: 9fbc112297ec01545b7911caef9116e5, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: air_conditioner1_metallicRoughness.standard
+    second: {fileID: 2800000, guid: 25ca41f24d74eac44875d7e295db9a1e, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: air_conditioner1_normal.normal
+    second: {fileID: 2800000, guid: 20c1b2e8bc43a75498d394ded0db7947, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: basepipeholder_baseColor
+    second: {fileID: 2800000, guid: 48529f6561ae57942ad7fc4c13a35b41, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: basepipeholder_metallicRoughness.standard
+    second: {fileID: 2800000, guid: 6c0a8a93a42bf32429116d348a96bb5d, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: basepipeholder_normal.normal
+    second: {fileID: 2800000, guid: e4fc40c636563a74eba9af476a6bdbc6, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: cautiondoor1_baseColor
+    second: {fileID: 2800000, guid: 20f80276cfcbce248a483bec7d8b57de, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: cautiondoor1_metallicRoughness.standard
+    second: {fileID: 2800000, guid: df005e87a993d864c824b150d9efc884, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: cautiondoor1_normal.normal
+    second: {fileID: 2800000, guid: eaaf226cee3684140b26bb548de15f36, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: doorway_baseColor
+    second: {fileID: 2800000, guid: f7b4d881c882a074a90ceca877281990, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: doorway_emissive
+    second: {fileID: 2800000, guid: b181020983dd9b74ea0c670996265120, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: doorway_metallicRoughness.standard
+    second: {fileID: 2800000, guid: f43db2daa0e994544945b6d103b86412, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: doorway_normal.normal
+    second: {fileID: 2800000, guid: 8c261e1f8411c2f4b8902dc83b0f4c23, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: gamesign_baseColor
+    second: {fileID: 2800000, guid: 9d75c7e047abf5b4a8c1dafd51121116, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: gamesign_metallicRoughness.standard
+    second: {fileID: 2800000, guid: 9d937af9c7413914d8ded78fcd63737b, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: gamesign_normal.normal
+    second: {fileID: 2800000, guid: e2c0b127cb8b63743a88c4f02d51a70a, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: gasspipes_baseColor
+    second: {fileID: 2800000, guid: 9fe05e2434a4e4449a9389d6b75f62dd, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: gasspipes_metallicRoughness.standard
+    second: {fileID: 2800000, guid: 9ca2767767d50ad44ad1c77c31f97352, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: gasspipes_normal.normal
+    second: {fileID: 2800000, guid: a07d8748b62bd624dab7303181b51932, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: left_of_door1_emissive
+    second: {fileID: 2800000, guid: 5040417c2af6c01478427ecb481e1ba8, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: nightclub_baseColor
+    second: {fileID: 2800000, guid: cd025c06e0789a745968be05f42eaa25, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: nightclub_emissive
+    second: {fileID: 2800000, guid: e58e66a472d92c44c9a4b78e0a794acd, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: nightclub_metallicRoughness.standard
+    second: {fileID: 2800000, guid: ff2f8d3bcc02b8d4db3a6afe28d62252, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: nightclub_normal.normal
+    second: {fileID: 2800000, guid: beee64f54f0c5c24886dd286c235e3b2, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: rail_baseColor
+    second: {fileID: 2800000, guid: 101384bb8a972d2408296b9031e22880, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: rail_metallicRoughness.standard
+    second: {fileID: 2800000, guid: badccab272836114dab4d1ac695e301d, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: rail_normal.normal
+    second: {fileID: 2800000, guid: 0e165aeea50a26f478dc8e16109316d2, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: right_of_door1_emissive
+    second: {fileID: 2800000, guid: 893bddc4a8c7ad84fa89c449b741a840, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: shelfs_baseColor
+    second: {fileID: 2800000, guid: b00587d504e75d94fb81738cfaf16498, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: shelfs_metallicRoughness.standard
+    second: {fileID: 2800000, guid: 743d66ec60a730649a349da285953025, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: shelfs_normal.normal
+    second: {fileID: 2800000, guid: c5251c09f6917dd4dbcb68968fdce658, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: side_walk_baseColor
+    second: {fileID: 2800000, guid: 2c556445450ccdc40a6d77f8caed17fa, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: side_walk_emissive
+    second: {fileID: 2800000, guid: 1f0e8b61e1c091048bd2c9ce8f3e1aac, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: side_walk_metallicRoughness.standard
+    second: {fileID: 2800000, guid: 11456e117e2c7104fb6a2b75fb61de76, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: side_walk_normal.normal
+    second: {fileID: 2800000, guid: 978101f2f12587346b54ace58a109cf1, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: sign_in_air_baseColor
+    second: {fileID: 2800000, guid: a83f3a6ce62b4f647b9ce44c70a6757f, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: sign_in_air_emissive
+    second: {fileID: 2800000, guid: 49d0ff5d4ef8cec4d946274855dba2ab, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: sign_in_air_metallicRoughness.standard
+    second: {fileID: 2800000, guid: 62a0e514660d1a740b47cf6581206233, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: sign_in_air_normal.normal
+    second: {fileID: 2800000, guid: 13575ac6c8f04f842923782e72d6ec9b, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: signstand2_baseColor
+    second: {fileID: 2800000, guid: 39063f86cba65bb4486570c83a5a4c09, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: signstand2_normal.normal
+    second: {fileID: 2800000, guid: fdb539a4492e59a4ea6ce7ffbf2a544f, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: soda1_baseColor
+    second: {fileID: 2800000, guid: 53aad5aa04fa8af499541b284e6a5210, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: soda1_metallicRoughness.standard
+    second: {fileID: 2800000, guid: bd37ea6ba8149b541ac8197b18c30f8b, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: soda2_baseColor
+    second: {fileID: 2800000, guid: 6f8aad140ea9ddf4c8a78f9dc01c7e6e, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: soda2_metallicRoughness.standard
+    second: {fileID: 2800000, guid: e5445fec6b7633a42b077374ab38a481, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: soda3_baseColor
+    second: {fileID: 2800000, guid: 5fc44faf223ea22478424def0927a1f9, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: soda3_metallicRoughness.standard
+    second: {fileID: 2800000, guid: 523a603c35325c1419c6ddeb3f9c7066, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: soda4_baseColor
+    second: {fileID: 2800000, guid: 6fa53d229bc4e6d44a970c6f00c69950, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: soda4_metallicRoughness.standard
+    second: {fileID: 2800000, guid: 0ad87f749b02bf444ae8da0701ca8c3c, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: soda_005_baseColor
+    second: {fileID: 2800000, guid: 3d0433730e420c145a30ade5369b32f6, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: soda_005_metallicRoughness.standard
+    second: {fileID: 2800000, guid: 6c057f0fd45d3a74dad3c3578c561d9d, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: soda_006_metallicRoughness.standard
+    second: {fileID: 2800000, guid: dc99f7094e74cb64d8533ba457b70d92, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: vendingmachine_baseColor
+    second: {fileID: 2800000, guid: b2657b43b02a83741b2001787e48a2f8, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: vendingmachine_emissive
+    second: {fileID: 2800000, guid: 27e27fe6c742ba6419aef34f6aca9bf3, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: vendingmachine_metallicRoughness.standard
+    second: {fileID: 2800000, guid: a79c058d8f4f27e48a25025b418ba586, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: vendingmachine_normal.normal
+    second: {fileID: 2800000, guid: f2aab03c5d80a924788f9d57c54a4cc0, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: videogamestore_baseColor
+    second: {fileID: 2800000, guid: dd691a7dafa330543acc633911dff00a, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: videogamestore_emissive
+    second: {fileID: 2800000, guid: 540155d7a0f582248a1fb61f0517994d, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: videogamestore_metallicRoughness.standard
+    second: {fileID: 2800000, guid: ad205240cb02ca04b941d3307229fe5c, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: videogamestore_normal.normal
+    second: {fileID: 2800000, guid: 8f23329be4a3cc943a7566d9bc76a503, type: 3}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: aecd2106718f2444db3ca21345da2cef, type: 3}
+  reverseAxis: 0
+  renderPipeline: 0
