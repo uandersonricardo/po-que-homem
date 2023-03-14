@@ -1,0 +1,32 @@
+fileFormatVersion: 2
+guid: b3ab1c37d147aa6429aa777e54424de7
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Moai
+    second: {fileID: 2100000, guid: 698fb7b105ec2d04aaabb5e117339e8b, type: 2}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Moai_baseColor
+    second: {fileID: 2800000, guid: 098ec1900bf910e40bd683c97718bd44, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Moai_metallicRoughness.standard
+    second: {fileID: 2800000, guid: 83bd90d8b11ad14478f74a44f3c6afe5, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Moai_normal.normal
+    second: {fileID: 2800000, guid: a33f0e71407a02b4286eb3220a622902, type: 3}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: aecd2106718f2444db3ca21345da2cef, type: 3}
+  reverseAxis: 0
+  renderPipeline: 1

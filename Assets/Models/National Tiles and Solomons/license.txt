@@ -1,0 +1,11 @@
+Model Information:
+* title:	National Tiles and Solomons Flooring (low Poly)
+* source:	https://sketchfab.com/3d-models/national-tiles-and-solomons-flooring-low-poly-2cbe402bbbb54dd9a0de5090d9ba0e53
+* author:	Jotrain (https://sketchfab.com/Jotrain)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "National Tiles and Solomons Flooring (low Poly)" (https://sketchfab.com/3d-models/national-tiles-and-solomons-flooring-low-poly-2cbe402bbbb54dd9a0de5090d9ba0e53) by Jotrain (https://sketchfab.com/Jotrain) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

@@ -1,0 +1,52 @@
+fileFormatVersion: 2
+guid: b1cebf938df6f454289cf0fa0961e1ef
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_2
+    second: {fileID: 2100000, guid: 2a94f3380be79a54bbe953d39a0fc2c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: texture_1
+    second: {fileID: 2100000, guid: ee92e950dfa70ce4899e5aca6e84c994, type: 2}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: tex_2_baseColor
+    second: {fileID: 2800000, guid: 84f751623a977a04bbe0ba153bc0e4e5, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: tex_2_metallicRoughness.standard
+    second: {fileID: 2800000, guid: 32412f234bfed394cbe9329ca8df3b3b, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: tex_2_normal.normal
+    second: {fileID: 2800000, guid: 4f419048c62a38448b015f253846f60e, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: texture_1_baseColor
+    second: {fileID: 2800000, guid: 1eb384bb3c4003c48929e4fb480f51aa, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: texture_1_metallicRoughness.standard
+    second: {fileID: 2800000, guid: 003056960fdc56f49b02b603fa2f08f5, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: texture_1_normal.normal
+    second: {fileID: 2800000, guid: ddc865e62a42eec47b16b5bd0abbf158, type: 3}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: aecd2106718f2444db3ca21345da2cef, type: 3}
+  reverseAxis: 0
+  renderPipeline: 1

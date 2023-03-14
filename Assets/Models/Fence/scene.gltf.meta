@@ -1,0 +1,82 @@
+fileFormatVersion: 2
+guid: c8611e8f6d65bca45b9557e6b79adda4
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brick
+    second: {fileID: 2100000, guid: dfd9482c992b42946abf3128e371d317, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Concrete
+    second: {fileID: 2100000, guid: 837dbcb5204e87f49bc264fc4bc447de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lampa
+    second: {fileID: 2100000, guid: 1f60cf7a490017a41b129a1d9831817b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stupovi
+    second: {fileID: 2100000, guid: 58dfb5bc953d2094aa69823ad8eef794, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Svijetiljka
+    second: {fileID: 2100000, guid: 27848e9b914a9964da40e14678d868e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Zlato
+    second: {fileID: 2100000, guid: 5358af32bdc473848912a8ed5991bff7, type: 2}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Brick_baseColor
+    second: {fileID: 2800000, guid: 406b9982332f41b4e938e3388983ab5d, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Brick_metallicRoughness.standard
+    second: {fileID: 2800000, guid: 394bcd65696cda445920c2fdfc383997, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Brick_normal.normal
+    second: {fileID: 2800000, guid: 7dbf284eb755c4a4ea9caf5fd4f8b10a, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Concrete_baseColor
+    second: {fileID: 2800000, guid: e48cd2662b33eb34d91b249c5c9945e6, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Concrete_metallicRoughness.standard
+    second: {fileID: 2800000, guid: 1908792405655c5488a5558c691a4e52, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Concrete_normal.normal
+    second: {fileID: 2800000, guid: 42d2c1b369fa01c4b8e80b258f58f567, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Stupovi_metallicRoughness.standard
+    second: {fileID: 2800000, guid: ba9696c749bb5c8419937fd049f25af9, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Stupovi_normal.normal
+    second: {fileID: 2800000, guid: 244b8f1fa627898409cf16b2130e9276, type: 3}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: aecd2106718f2444db3ca21345da2cef, type: 3}
+  reverseAxis: 0
+  renderPipeline: 0

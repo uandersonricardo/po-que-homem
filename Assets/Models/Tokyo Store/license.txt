@@ -1,0 +1,11 @@
+Model Information:
+* title:	Diorama, Tokyo storefront
+* source:	https://sketchfab.com/3d-models/diorama-tokyo-storefront-365feacfa1f249e880fa33805896389d
+* author:	Julian4444 (https://sketchfab.com/Julian4444)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Diorama, Tokyo storefront" (https://sketchfab.com/3d-models/diorama-tokyo-storefront-365feacfa1f249e880fa33805896389d) by Julian4444 (https://sketchfab.com/Julian4444) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Building + Interior Effect
+* source:	https://sketchfab.com/3d-models/building-interior-effect-0536e68261af4fc7bc8cfb11c83c4639
+* author:	Daniele Cocchi (https://sketchfab.com/Cocchi)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Building + Interior Effect" (https://sketchfab.com/3d-models/building-interior-effect-0536e68261af4fc7bc8cfb11c83c4639) by Daniele Cocchi (https://sketchfab.com/Cocchi) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
