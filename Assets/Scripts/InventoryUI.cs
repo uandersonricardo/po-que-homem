@@ -36,12 +36,17 @@ public class InventoryUI : MonoBehaviour
 
     public void UpdateItems()
     {
+        // Remove todos os itens
+        for (int i = 0; i < inventorySize; i++)
+        {
+            listOfUIItems[i].RemoveItem();
+        }
+
         // Atribui itens aos quadrados
         int j = 0;
         for (int i = 0; i < Inventory.items.Count; i++)
         {
-            if (Inventory.items[i].isGiven) listOfUIItems[j].RemoveItem();
-            else listOfUIItems[j++].SetItem(Inventory.items[i]);
+            if (!Inventory.items[i].isGiven) listOfUIItems[j++].SetItem(Inventory.items[i]);
         }
     }
 

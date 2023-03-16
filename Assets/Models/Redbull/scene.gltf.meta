@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: 704e9190bf875154e9188ac1808058e8
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01_-_Default
+    second: {fileID: 2100000, guid: b81db6109506ef842963915aa67859ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 02_-_Default
+    second: {fileID: 2100000, guid: 78d8f8b989d43474e882344c95b8026c, type: 2}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: 02_-_Default_baseColor
+    second: {fileID: 2800000, guid: 3af90e3ff80006d49b44963a9b7ddc2f, type: 3}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: aecd2106718f2444db3ca21345da2cef, type: 3}
+  reverseAxis: 0
+  renderPipeline: 0
