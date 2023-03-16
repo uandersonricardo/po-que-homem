@@ -18,6 +18,6 @@ public class Inventory
 
     public static InventoryItem GetItem(ItemType type)
     {
-        return items.Find(inventoryItem => inventoryItem.item.type == type);
+        return items.Find(inventoryItem => inventoryItem.type == type);
     }
 }

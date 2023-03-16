@@ -15,6 +15,7 @@ public class Detect : MonoBehaviour
     public Talk talkUi;
     public AudioSource playSource;
     public bool playIfGiven;
+    public InventoryUI inventoryUI;
 
     // Start is called before the first frame update
     void Start()
@@ -68,6 +69,7 @@ public class Detect : MonoBehaviour
         else if (!inventoryItem.isGiven)
         {
             Inventory.GiveItem(inventoryItem);
+            inventoryUI.UpdateItems();
             talkUi.StartTalking(new List<string> { man.thankText }, man.type);
 
             if (playSource) {

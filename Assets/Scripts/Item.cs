@@ -5,6 +5,9 @@ using UnityEngine;
 public class Item : MonoBehaviour
 {
     public ItemType type;
+    public Sprite sprite;
+    public string itemName;
+    public string description;
 
     // Start is called before the first frame update
     void Start()
