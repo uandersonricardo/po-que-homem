@@ -23,7 +23,7 @@ public class InventoryUI : MonoBehaviour
 
     public void InitializeInventoryUI()
     {
-        // Cria os quadrados na UI
+        // Cria os quadrados vazios na UI
         for(int i = 0; i < inventorySize; i++)
         {
             InventoryItemUI uiItem = Instantiate(itemPrefab, Vector3.zero, Quaternion.identity);
@@ -52,8 +52,8 @@ public class InventoryUI : MonoBehaviour
 
     public void Show()
     {
-        this.SelectItem(0);
         FindObjectOfType<PlayerInput>().enabled = false;
+        SelectItem(0);
         gameObject.SetActive(true);
     }
 
@@ -104,9 +104,12 @@ public class InventoryUI : MonoBehaviour
             SoundManager.Instance.PlaySound("Button");
         }
 
+        // Se o quadrado que eu quero selecionar não está vazio
         if (!listOfUIItems[item].IsEmpty())
         {
+            // Se havia outro quadrado selecionado, desselecionar
             if (selectedItem >= 0 && selectedItem < inventorySize) listOfUIItems[selectedItem].Deselect();
+            // Selecionar o novo e atualizar a descrição
             listOfUIItems[item].Select();
             selectedItem = item;
             descriptionPanel.UpdateDescription(listOfUIItems[item].GetItem());
@@ -115,10 +118,12 @@ public class InventoryUI : MonoBehaviour
         {
             if (selectedItem >= 0 && selectedItem < inventorySize)
             {
+                // Desselecionar o quadrado antigo caso ele agora esteja vazio
                 if (listOfUIItems[selectedItem].IsEmpty()) listOfUIItems[selectedItem].Deselect();
                 else return;
             }
             
+            // Resetar descrição
             descriptionPanel.ResetDescription();
         }
     }

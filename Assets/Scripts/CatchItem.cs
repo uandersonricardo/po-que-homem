@@ -9,7 +9,6 @@ public class CatchItem : MonoBehaviour
     private Animator playerAnimator;
     private PlayerInput playerInput;
     public GameObject balloon;
-    public InventoryUI inventoryUI;
 
     // Start is called before the first frame update
     void Start()
@@ -59,7 +58,6 @@ public class CatchItem : MonoBehaviour
         yield return new WaitForSeconds(1.2f);
         SoundManager.Instance.PlaySound("Pickup");
         Inventory.AddItem(GetComponentInChildren<Item>());
-        inventoryUI.UpdateItems();
         playerAnimator.SetBool("Catch", false);
         gameObject.GetComponentInChildren<MeshRenderer>().enabled = false;
         balloon.SetActive(false);

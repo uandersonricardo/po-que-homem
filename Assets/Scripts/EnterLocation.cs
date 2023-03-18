@@ -13,13 +13,16 @@ public class EnterLocation : MonoBehaviour
     private Transform defaultLookAt;
     private Vector3 defaultOffset;
 
-    public GameObject ui;
     public Vector3 offset;
     public string sceneName;
+
+    // UI
+    private ConfirmLocation confirmLocation;
 
     // Start is called before the first frame update
     void Start()
     {
+        confirmLocation = UIController.Instance.GetConfirmLocationUI();
         isClose = false;
         vcam = FindObjectOfType<CinemachineVirtualCamera>();
         defaultFollow = vcam.Follow;
@@ -40,8 +43,8 @@ public class EnterLocation : MonoBehaviour
                 SpawnPlayer.SetSpawnPlayground(player.transform.position);
             }
 
-            ui.SetActive(true);
-            ui.GetComponent<ConfirmLocation>().SetScene(sceneName);
+            confirmLocation.gameObject.SetActive(true);
+            confirmLocation.SetScene(sceneName);
             SetLocationCamera();
         }
     }

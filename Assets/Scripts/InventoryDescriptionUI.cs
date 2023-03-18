@@ -15,12 +15,12 @@ public class InventoryDescriptionUI : MonoBehaviour
         itemImage.sprite = item.sprite;
         itemName.text = item.itemName;
         itemDescription.text = item.description;
+
+        gameObject.SetActive(true);
     }
 
     public void ResetDescription()
     {
-        itemImage.sprite = null;
-        itemName.text = "";
-        itemDescription.text = "";
+        gameObject.SetActive(false);
     }
 }

@@ -11,11 +11,12 @@ public class Detect : MonoBehaviour
     private Man man;
     public GameObject ballon;
     public CinemachineVirtualCamera virtualCamera;
-    public Flirt flirtUi;
-    public Talk talkUi;
     public AudioSource playSource;
     public bool playIfGiven;
-    public InventoryUI inventoryUI;
+
+    // UI
+    private Flirt flirtUI;
+    private Talk talkUI;
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +25,9 @@ public class Detect : MonoBehaviour
         man = GetComponentInParent<Man>();
         mainCamera = GameObject.Find("Player Follow Camera").GetComponent<CinemachineVirtualCamera>();
         ballon.SetActive(false);
+
+        flirtUI = UIController.Instance.GetFlirtUI();
+        talkUI = UIController.Instance.GetTalkUI();
 
         InventoryItem inventoryItem = Inventory.GetItem(man.itemToGive);
         if (playIfGiven && playSource && inventoryItem != null && inventoryItem.isGiven) {
@@ -64,13 +68,12 @@ public class Detect : MonoBehaviour
 
         if (inventoryItem == null)
         {
-            talkUi.StartTalking(new List<string> { man.itemToGiveText }, man.type);
+            talkUI.StartTalking(new List<string> { man.itemToGiveText }, man.type);
         }
         else if (!inventoryItem.isGiven)
         {
             Inventory.GiveItem(inventoryItem);
-            inventoryUI.UpdateItems();
-            talkUi.StartTalking(new List<string> { man.thankText }, man.type);
+            talkUI.StartTalking(new List<string> { man.thankText }, man.type);
 
             if (playSource) {
                 playSource.Play();
@@ -79,7 +82,7 @@ public class Detect : MonoBehaviour
         else
         {
             SetFlirtCamera();
-            flirtUi.StartFlirting(man);
+            flirtUI.StartFlirting(man);
         }
     }
 
