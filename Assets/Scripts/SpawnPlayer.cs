@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SpawnPlayer : MonoBehaviour
 {
-    private static Vector3 spawnPlayground = new Vector3(0, 0);
+    private static Vector3 spawnPlayground = new Vector3(-14, 0, 55);
     private void Awake()
     {
         GameObject player = GameObject.FindWithTag("Player");

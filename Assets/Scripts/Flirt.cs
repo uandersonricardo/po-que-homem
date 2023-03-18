@@ -13,12 +13,14 @@ public class Flirt : MonoBehaviour
     public GameObject panel;
     public GameObject[] buttons;
     public Slider lovemeter;
-    public Talk talkUi;
+
+    // UI
+    private Talk talkUI;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        talkUI = UIController.Instance.GetTalkUI();
     }
 
     // Update is called once per frame
@@ -144,7 +146,7 @@ public class Flirt : MonoBehaviour
         }
         else if (lovemeter.value <= 0 || currentDialogue >= selectedMan.dialogues.Count - 1)
         {
-            talkUi.StartTalking(new List<string>() { selectedMan.notInterestedText }, selectedMan.type, false);
+            talkUI.StartTalking(new List<string>() { selectedMan.notInterestedText }, selectedMan.type, false);
             ExitFlirting(false);
         }
         else

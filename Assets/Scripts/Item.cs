@@ -5,16 +5,7 @@ using UnityEngine;
 public class Item : MonoBehaviour
 {
     public ItemType type;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public Sprite sprite;
+    public string itemName;
+    public string description;
 }

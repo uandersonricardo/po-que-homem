@@ -1,0 +1,37 @@
+fileFormatVersion: 2
+guid: e35e12da4dd11674a97e680d70acddfe
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Skullcandy_Crusher
+    second: {fileID: 2100000, guid: 6201f824b5adf1a4b84f512c6c4f447a, type: 2}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: M_Skullcandy_Crusher_baseColor
+    second: {fileID: 2800000, guid: ed55d16372cd11d42bb9c0f509df6174, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: M_Skullcandy_Crusher_emissive
+    second: {fileID: 2800000, guid: 1d9238e8e5fdd2248adde87b906dbc05, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: M_Skullcandy_Crusher_metallicRoughness.standard
+    second: {fileID: 2800000, guid: 448e298d1a2aa0c4b88178894384c03b, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: M_Skullcandy_Crusher_normal.normal
+    second: {fileID: 2800000, guid: 171b93b364e061344ad69320e0fb1ddc, type: 3}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: aecd2106718f2444db3ca21345da2cef, type: 3}
+  reverseAxis: 0
+  renderPipeline: 0
