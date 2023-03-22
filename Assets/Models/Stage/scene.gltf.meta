@@ -1,0 +1,92 @@
+fileFormatVersion: 2
+guid: 03b1f85f60795074e83eb12cdb606db3
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 09___Default_baseColor
+    second: {fileID: 2100000, guid: cf37ea2f80608b64caf233b418c26580, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 14___Default_baseColor
+    second: {fileID: 2100000, guid: 121e92120c3e175499434bf867e9f001, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 15___Default_baseColor
+    second: {fileID: 2100000, guid: e9d08937a0ce92a478d454507ce45e65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 244380711_351802696739644_7720333621352895
+    second: {fileID: 2100000, guid: afa8a51e106bca94b94a1da62128a9a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default_Material
+    second: {fileID: 2100000, guid: a9111fb5b1266214d8955ae0c61c22bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metallic_Texture_wide_i
+    second: {fileID: 2100000, guid: 166f91bdd77ec704b8739b03043c36de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black_mat
+    second: {fileID: 2100000, guid: b6510026e53bece4485aed6f6158dce9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grey_mat
+    second: {fileID: 2100000, guid: 269e88a49e7a246428c7fb02a0e9f80e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: legno_sedia
+    second: {fileID: 2100000, guid: 935a84f85aea17e4795959fe57c740c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: logo6
+    second: {fileID: 2100000, guid: 5ae0e5c13bddc7e42aa0c6c64c5892d5, type: 2}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: 09___Default_baseColor_baseColor
+    second: {fileID: 2800000, guid: 72b7e221d9c056448946ab3981364421, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: 14___Default_baseColor_baseColor
+    second: {fileID: 2800000, guid: 27b849cf314b83740aadcb94ad9f9249, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: 244380711_351802696739644_7720333621352895_baseColor
+    second: {fileID: 2800000, guid: 418f6d00df894a34d8df0923f2e3a363, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Metallic_Texture_wide_i_baseColor
+    second: {fileID: 2800000, guid: 433c167f41c32eb428e470e3aae77c46, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: legno_sedia_baseColor
+    second: {fileID: 2800000, guid: d4a44732e5eea5347a3d473d35f4f00c, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: logo6_baseColor
+    second: {fileID: 2800000, guid: 20e473f507224ee44b2a8f703f6569f7, type: 3}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: aecd2106718f2444db3ca21345da2cef, type: 3}
+  reverseAxis: 0
+  renderPipeline: 0

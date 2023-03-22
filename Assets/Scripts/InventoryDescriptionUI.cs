@@ -12,15 +12,17 @@ public class InventoryDescriptionUI : MonoBehaviour
 
     public void UpdateDescription(InventoryItem item)
     {
+        itemImage.gameObject.SetActive(true);
         itemImage.sprite = item.sprite;
         itemName.text = item.itemName;
         itemDescription.text = item.description;
-
-        gameObject.SetActive(true);
     }
 
     public void ResetDescription()
     {
-        gameObject.SetActive(false);
+        itemImage.gameObject.SetActive(false);
+        itemImage.sprite = null;
+        itemName.text = "Inventário";
+        itemDescription.text = "Nenhum item selecionado";
     }
 }
