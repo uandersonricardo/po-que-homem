@@ -23,31 +23,28 @@ public class UIController : MonoBehaviour
 
         instance = this;
         DontDestroyOnLoad(gameObject);
-    }
 
-    void Start()
-    {
         confirmLocationUI = GetComponentInChildren<ConfirmLocation>(true);
         inventoryUI = GetComponentInChildren<InventoryUI>(true);
         flirtUI = GetComponentInChildren<Flirt>(true);
         talkUI = GetComponentInChildren<Talk>(true);
+    }
 
-        inventoryUI.InitializeInventoryUI();
+    void Start()
+    {
+        
     }
 
     void Update()
     {
-        // Apertou I => abre/fecha o inventário
-        if (Keyboard.current.iKey.wasPressedThisFrame)
+        // Apertou I => abre/fecha o inventï¿½rio
+        if (inventoryUI.isActiveAndEnabled == false && Keyboard.current.iKey.wasPressedThisFrame)
         {
-            if (inventoryUI.isActiveAndEnabled == false)
-            {
-                inventoryUI.Show();
-            }
-            else
-            {
-                inventoryUI.Hide();
-            }
+            inventoryUI.Show();
+        }
+        else if (inventoryUI.isActiveAndEnabled == true && (Keyboard.current.iKey.wasPressedThisFrame || Keyboard.current.escapeKey.wasPressedThisFrame))
+        {
+            inventoryUI.Hide();
         }
     }
 

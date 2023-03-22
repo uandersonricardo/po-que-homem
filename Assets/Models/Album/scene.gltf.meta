@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 815323475b5cb1a448f28999d9b6116d
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2SG
+    second: {fileID: 2100000, guid: 96d058ef182d4764fa0ff5bc16010df2, type: 2}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: lambert2SG_baseColor
+    second: {fileID: 2800000, guid: 028f1b7f2e5389245b00d5113ef5c8ab, type: 3}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: aecd2106718f2444db3ca21345da2cef, type: 3}
+  reverseAxis: 0
+  renderPipeline: 0

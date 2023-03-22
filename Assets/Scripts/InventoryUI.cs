@@ -6,47 +6,24 @@ using UnityEngine.UI;
 
 public class InventoryUI : MonoBehaviour
 {
-    List<InventoryItemUI> listOfUIItems = new List<InventoryItemUI>();
+    [SerializeField] private InventoryItemUI[] inventoryItemsUI;
+    [SerializeField] private InventoryDescriptionUI descriptionPanel;
 
-    [SerializeField]
-    private InventoryItemUI itemPrefab;
-
-    [SerializeField]
-    private RectTransform contentPanel;
-
-    [SerializeField]
-    private InventoryDescriptionUI descriptionPanel;
-
-    private int selectedItem = -1;
+    private int selectedItem = 0;
     private int inventorySize = 6;
-    private int itemsPerRow = 3;
-
-    public void InitializeInventoryUI()
-    {
-        // Cria os quadrados vazios na UI
-        for(int i = 0; i < inventorySize; i++)
-        {
-            InventoryItemUI uiItem = Instantiate(itemPrefab, Vector3.zero, Quaternion.identity);
-            uiItem.transform.SetParent(contentPanel);
-            listOfUIItems.Add(uiItem);
-        }
-
-        UpdateItems();
-    }
+    private int itemsPerRow = 2;
 
     public void UpdateItems()
     {
-        // Remove todos os itens
+        List<InventoryItem> currentItems = Inventory.items.FindAll(item => !item.isGiven);
+
         for (int i = 0; i < inventorySize; i++)
         {
-            listOfUIItems[i].RemoveItem();
-        }
-
-        // Atribui itens aos quadrados
-        int j = 0;
-        for (int i = 0; i < Inventory.items.Count; i++)
-        {
-            if (!Inventory.items[i].isGiven) listOfUIItems[j++].SetItem(Inventory.items[i]);
+            if (currentItems.Count > i) {
+                inventoryItemsUI[i].SetItem(Inventory.items[i]);
+            } else {
+                inventoryItemsUI[i].RemoveItem();
+            }
         }
     }
 
@@ -67,14 +44,14 @@ public class InventoryUI : MonoBehaviour
     {
         if (Keyboard.current.rightArrowKey.wasPressedThisFrame)
         {
-            if (selectedItem + 1 < inventorySize)
+            if (selectedItem % 2 == 0 && selectedItem + 1 < inventorySize)
             {
                 SelectItem(selectedItem + 1);
             }
         }
         else if (Keyboard.current.leftArrowKey.wasPressedThisFrame)
         {
-            if (selectedItem > 0)
+            if (selectedItem % 2 == 1 && selectedItem > 0)
             {
                 SelectItem(selectedItem - 1);
             }
@@ -104,26 +81,22 @@ public class InventoryUI : MonoBehaviour
             SoundManager.Instance.PlaySound("Button");
         }
 
-        // Se o quadrado que eu quero selecionar não está vazio
-        if (!listOfUIItems[item].IsEmpty())
+        if (!inventoryItemsUI[item].IsEmpty())
         {
-            // Se havia outro quadrado selecionado, desselecionar
-            if (selectedItem >= 0 && selectedItem < inventorySize) listOfUIItems[selectedItem].Deselect();
-            // Selecionar o novo e atualizar a descrição
-            listOfUIItems[item].Select();
+            if (selectedItem >= 0 && selectedItem < inventorySize) inventoryItemsUI[selectedItem].Deselect();
+
+            inventoryItemsUI[item].Select();
             selectedItem = item;
-            descriptionPanel.UpdateDescription(listOfUIItems[item].GetItem());
+            descriptionPanel.UpdateDescription(inventoryItemsUI[item].GetItem());
         }
         else
         {
             if (selectedItem >= 0 && selectedItem < inventorySize)
             {
-                // Desselecionar o quadrado antigo caso ele agora esteja vazio
-                if (listOfUIItems[selectedItem].IsEmpty()) listOfUIItems[selectedItem].Deselect();
+                if (inventoryItemsUI[selectedItem].IsEmpty()) inventoryItemsUI[selectedItem].Deselect();
                 else return;
             }
-            
-            // Resetar descrição
+
             descriptionPanel.ResetDescription();
         }
     }

@@ -12,7 +12,7 @@ public class InventoryItemUI : MonoBehaviour
     private Image itemImage;
 
     [SerializeField]
-    private GameObject border;
+    private GameObject selectedUI;
 
     private bool empty = true;
 
@@ -24,12 +24,14 @@ public class InventoryItemUI : MonoBehaviour
 
     public void Deselect()
     {
-        border.SetActive(false);
+        GetComponent<Image>().color = new Color(0f, 0f, 0f, 0.75f);
+        selectedUI.SetActive(false);
     }
 
     public void Select()
     {
-        border.SetActive(true);
+        GetComponent<Image>().color = new Color(1f, 1f, 1f);
+        selectedUI.SetActive(true);
     }
 
     public bool IsEmpty()
