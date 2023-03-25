@@ -1,0 +1,32 @@
+fileFormatVersion: 2
+guid: d5c209862c5ab624ca7a89879349f884
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aluminum_-_Anodized_Glossy_Black
+    second: {fileID: 2100000, guid: 2094143e9105f564bb48a3967a919fb0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aluminum_-_Anodized_Glossy_Pale
+    second: {fileID: 2100000, guid: f19f6c2da36087946baa7c4463f535b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aluminum_-_Anodized_Glossy_Red
+    second: {fileID: 2100000, guid: 639ae282c5a704a499e2c15e7ea72ca2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body4__0
+    second: {fileID: 2100000, guid: 2c26d00d1873cb945a49fbd30eb310d1, type: 2}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: aecd2106718f2444db3ca21345da2cef, type: 3}
+  reverseAxis: 0
+  renderPipeline: 0

@@ -1,0 +1,62 @@
+fileFormatVersion: 2
+guid: ff52de5549f309f4e860436b7da6ebbf
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder
+    second: {fileID: 2100000, guid: 30e7b552f00524648ad56ba49fa0e607, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Machine__Caf
+    second: {fileID: 2100000, guid: 4ae1f4cfee5ad314ab6aad1bcb13cfa5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Porte_Machine
+    second: {fileID: 2100000, guid: 75e0e9932d297de4cba44840687b1c3a, type: 2}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Cylinder_baseColor
+    second: {fileID: 2800000, guid: 4b79dd8d2e626294ca30ee05e5e68c11, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Cylinder_metallicRoughness.standard
+    second: {fileID: 2800000, guid: eea52d86e04c4bb418d8964aab577849, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Machine__Caf_baseColor
+    second: {fileID: 2800000, guid: 53edf01ef567ee047abf306672e9e4e7, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Machine__Caf_emissive
+    second: {fileID: 2800000, guid: 8d90d8042c58ea740b062cf44b97cedc, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Machine__Caf_metallicRoughness.standard
+    second: {fileID: 2800000, guid: f450264dafabcf94c84fecce32d82721, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Porte_Machine_baseColor
+    second: {fileID: 2800000, guid: c3e2be33573a1b642afe0e4e1693ade2, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Porte_Machine_metallicRoughness.standard
+    second: {fileID: 2800000, guid: 64825243ea0378d4699a66235298997f, type: 3}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: aecd2106718f2444db3ca21345da2cef, type: 3}
+  reverseAxis: 0
+  renderPipeline: 0

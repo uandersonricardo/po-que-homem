@@ -1,0 +1,177 @@
+fileFormatVersion: 2
+guid: c37babbfb251cdd4992b42a69a7b4c75
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Base
+    second: {fileID: 2100000, guid: 9498657e53b45f94290032b4c7970eeb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kablo
+    second: {fileID: 2100000, guid: f302b3966d98d43498ba19a911c99bf3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cable
+    second: {fileID: 2100000, guid: 129f2d9af74ac4141970bd2152306622, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: game
+    second: {fileID: 2100000, guid: b70ac0a7daff091409987a4cd858a646, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: joystick
+    second: {fileID: 2100000, guid: 10f0bfdf64acdd74a8baada80c149c71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material
+    second: {fileID: 2100000, guid: 0b26b08c52ec24d4cbddf5cb7ffdb434, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: priz
+    second: {fileID: 2100000, guid: d5591f15f39ded24d938f0521d726cef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: screw
+    second: {fileID: 2100000, guid: 23a232ee2f537fa408cfc9a32627dd6e, type: 2}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Base_baseColor
+    second: {fileID: 2800000, guid: 711324c8e9de0474ea5cd4d07a3a62a5, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Base_emissive
+    second: {fileID: 2800000, guid: 686e9d6f990d3724698028ff204f2cfe, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Base_metallicRoughness.standard
+    second: {fileID: 2800000, guid: 360a007ad079e8244bc5425733d2e48e, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Base_normal.normal
+    second: {fileID: 2800000, guid: d0e83cd077d6abe4a9459e3f28b13f88, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Kablo_baseColor
+    second: {fileID: 2800000, guid: d12a4bd8a87dec347961241ea641905c, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Kablo_metallicRoughness.standard
+    second: {fileID: 2800000, guid: d3319c99aaf270e4e822cf521f90df4f, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Kablo_normal.normal
+    second: {fileID: 2800000, guid: 64604f054ad669c4b8f3bb50c150c0b6, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: cable_baseColor
+    second: {fileID: 2800000, guid: 9f57f2b8b7c339b4b99269c413061970, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: cable_metallicRoughness.standard
+    second: {fileID: 2800000, guid: 4ce86edaca5160142a980875270de75d, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: cable_normal.normal
+    second: {fileID: 2800000, guid: fbf2f0fd774349c4b9ac39f2522846b8, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: game_baseColor
+    second: {fileID: 2800000, guid: af9d384acf7354f4d9b8ce75444b74f5, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: game_metallicRoughness.standard
+    second: {fileID: 2800000, guid: 2851e4742000b8c4685e07af6f508b3d, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: game_normal.normal
+    second: {fileID: 2800000, guid: 34cd1571e416eb34cb1b52f1c31ece4b, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: joystick_baseColor
+    second: {fileID: 2800000, guid: a3afda2469b0af9489f874869a27572d, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: joystick_metallicRoughness.standard
+    second: {fileID: 2800000, guid: e6a489e1f89e140499637e1c489d034a, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: joystick_normal.normal
+    second: {fileID: 2800000, guid: ad131e1efdb0d644bb646c3c582af839, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: material_baseColor
+    second: {fileID: 2800000, guid: 5549ef9212c9cb141afa5c1b99f86e40, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: material_metallicRoughness.standard
+    second: {fileID: 2800000, guid: 023e26dc021950a499148f1d67d6a305, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: material_normal.normal
+    second: {fileID: 2800000, guid: 08ccdb8bd66597a40a3d1a3cce54c6c6, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: priz_baseColor
+    second: {fileID: 2800000, guid: 9e02bfb6c569e974989c80d2ebd1e351, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: priz_metallicRoughness.standard
+    second: {fileID: 2800000, guid: 9f566a5649592d240820703ed227fb73, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: priz_normal.normal
+    second: {fileID: 2800000, guid: 8d36c79c1a06e6a4bac2f895434e2b26, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: screw_baseColor
+    second: {fileID: 2800000, guid: 71fd719d9886f6e44a2bf58581040384, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: screw_metallicRoughness.standard
+    second: {fileID: 2800000, guid: e4ab1d2275f3d414e802213d0daa32bf, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: screw_normal.normal
+    second: {fileID: 2800000, guid: c683072d0e2b67a4288a7ab446ae9cc8, type: 3}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: aecd2106718f2444db3ca21345da2cef, type: 3}
+  reverseAxis: 0
+  renderPipeline: 0

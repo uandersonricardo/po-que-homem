@@ -1,0 +1,32 @@
+fileFormatVersion: 2
+guid: fbc97ae43443f0346a66d13f2bbfee99
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DiningChairMat
+    second: {fileID: 2100000, guid: a148f11f822118d42b236c2b101b8f92, type: 2}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: DiningChairMat_baseColor
+    second: {fileID: 2800000, guid: f7303f128107d614ca422732a735b4e2, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: DiningChairMat_metallicRoughness.standard
+    second: {fileID: 2800000, guid: 0386065da3e86df40ae34f064f90f384, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: DiningChairMat_normal.normal
+    second: {fileID: 2800000, guid: b500acf8b21f5d4458d18154dad00075, type: 3}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: aecd2106718f2444db3ca21345da2cef, type: 3}
+  reverseAxis: 0
+  renderPipeline: 0

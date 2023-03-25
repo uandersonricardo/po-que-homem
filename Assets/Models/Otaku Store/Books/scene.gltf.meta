@@ -1,0 +1,77 @@
+fileFormatVersion: 2
+guid: 6bda2836e7df4af4f93aa39f83016255
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Expositor1
+    second: {fileID: 2100000, guid: 93386aafd1ce46c4a991279253f7af95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: books_4
+    second: {fileID: 2100000, guid: 890cb45ee20f65b438def1fafac785fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: books_5
+    second: {fileID: 2100000, guid: 9f243c0e6f3202c4d89bf3240ee2167a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: books_6
+    second: {fileID: 2100000, guid: 9598eb8f2f6f0974cb4ce3007c26ac8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pages
+    second: {fileID: 2100000, guid: 8a2aabc5f4b554c4293c4dbafed16b93, type: 2}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Expositor1_baseColor
+    second: {fileID: 2800000, guid: 3e3de8f233d576442ae530877a948be6, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Expositor1_normal.normal
+    second: {fileID: 2800000, guid: 16f75e2fc9c352b40a69ab5c46d9cb13, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: books_4_baseColor
+    second: {fileID: 2800000, guid: 048d23183bf6bfb4a98c626feab1cc17, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: books_5_baseColor
+    second: {fileID: 2800000, guid: e2289d931de57494ba18ed0e39d116cf, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: books_6_baseColor
+    second: {fileID: 2800000, guid: 8f406c8e40e66984082bebc31c8e0d77, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: pages_baseColor
+    second: {fileID: 2800000, guid: 740ca3a3f05a7674c8bdc9f787658bd7, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: pages_metallicRoughness.standard
+    second: {fileID: 2800000, guid: de2daf7f74118c941945dec702750852, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: pages_normal.normal
+    second: {fileID: 2800000, guid: c5d4c3bcaefc1fb4b825700bd08bed85, type: 3}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: aecd2106718f2444db3ca21345da2cef, type: 3}
+  reverseAxis: 0
+  renderPipeline: 0
