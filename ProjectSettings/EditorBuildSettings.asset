@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Bar.unity
     guid: 25e9d9bff143ebf44b91be2bb4714d14
   - enabled: 1
+    path: Assets/Scenes/Anime Store.unity
+    guid: de82c93f0ba113642a59f25e6d32ae51
+  - enabled: 1
     path: Assets/Scenes/Player Apartment.unity
     guid: 4dc374f2e25b19f48a2c63803b95eba2
   - enabled: 0

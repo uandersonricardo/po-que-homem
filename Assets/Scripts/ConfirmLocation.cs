@@ -19,7 +19,7 @@ public class ConfirmLocation : MonoBehaviour
         {"Gym", "Academia"},
         {"Player Apartment","Casa"},
         {"Bar", "Bar"},
-        {"AnimeStore", "Lojinha Otaku"},
+        {"Anime Store", "Lojinha Otaku"},
         {"Playground", "Praça" },
         {"Apartment", "Apartamento"}
     };
