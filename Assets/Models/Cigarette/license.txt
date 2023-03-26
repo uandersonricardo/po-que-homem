@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cigarette Box
+* source:	https://sketchfab.com/3d-models/cigarette-box-204eab778f734c73a8b255adcd6e5de6
+* author:	freyadougan (https://sketchfab.com/freyadougan)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cigarette Box" (https://sketchfab.com/3d-models/cigarette-box-204eab778f734c73a8b255adcd6e5de6) by freyadougan (https://sketchfab.com/freyadougan) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
