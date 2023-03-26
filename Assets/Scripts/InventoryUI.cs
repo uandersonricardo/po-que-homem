@@ -30,8 +30,9 @@ public class InventoryUI : MonoBehaviour
     public void Show()
     {
         FindObjectOfType<PlayerInput>().enabled = false;
-        SelectItem(0);
         gameObject.SetActive(true);
+        UpdateItems();
+        SelectItem(0);
     }
 
     public void Hide()
