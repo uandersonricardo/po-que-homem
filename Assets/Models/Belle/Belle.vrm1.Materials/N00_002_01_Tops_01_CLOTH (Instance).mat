@@ -11,21 +11,19 @@ Material:
   m_Shader: {fileID: 4800000, guid: 849dc4ff793a3f943ad21a3b6ee26456, type: 3}
   m_ValidKeywords:
   - _ADDITIONAL_LIGHTS_ENABLED
+  - _ALPHATEST_ON
   - _ENVIRONMENT_LIGHTING_ENABLED
   - _FOG
   - _NORMALMAP
-  m_InvalidKeywords:
-  - _MTOON_EMISSIVEMAP
-  - _MTOON_OUTLINE_WORLD
-  - _MTOON_RIMMAP
-  - _TOON_RECEIVE_SHADOWS
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2000
+  m_CustomRenderQueue: 2450
   stringTagMap:
-    RenderType: Opaque
-  disabledShaderPasses: []
+    RenderType: TransparentCutout
+  disabledShaderPasses:
+  - DepthOnly
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -117,7 +115,7 @@ Material:
     m_Floats:
     - _AdditionalLights: 1
     - _AdditionalLightsSpecular: 0
-    - _AlphaClip: 0
+    - _AlphaClip: 1
     - _AlphaMode: 1
     - _AnisoSpecular: 0
     - _Blend: 0
@@ -196,7 +194,7 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
     - _FresnelColor: {r: 1, g: 1, b: 1, a: 1}
     - _MatcapColor: {r: 1, g: 1, b: 1, a: 1}
     - _OutlineColor: {r: 0.27450976, g: 0.09019602, b: 0.12549013, a: 1}
