@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 0c2cfff7ff768ba419ef652c02ba8271
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fags
+    second: {fileID: 2100000, guid: 230ac2ed8a903c24fb4f90106908d338, type: 2}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: fags_baseColor
+    second: {fileID: 2800000, guid: 1149251b6e33c874fbcecfd0b38e50fb, type: 3}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: aecd2106718f2444db3ca21345da2cef, type: 3}
+  reverseAxis: 0
+  renderPipeline: 0

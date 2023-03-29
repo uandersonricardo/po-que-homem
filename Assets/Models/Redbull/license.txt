@@ -1,11 +1,11 @@
 Model Information:
-* title:	Red Bull Can
-* source:	https://sketchfab.com/3d-models/red-bull-can-b28f6a805511495a8beaef94a5d59f91
-* author:	naufaltaufiq66 (https://sketchfab.com/naufaltaufiq66)
+* title:	Energetic Drink - RedBull
+* source:	https://sketchfab.com/3d-models/energetic-drink-redbull-9a271cca41144bcfb5e67d512d22e815
+* author:	Artyom (https://sketchfab.com/corych)
 
 Model License:
 * license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 * requirements:	Author must be credited. Commercial use is allowed.
 
 If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
-This work is based on "Red Bull Can" (https://sketchfab.com/3d-models/red-bull-can-b28f6a805511495a8beaef94a5d59f91) by naufaltaufiq66 (https://sketchfab.com/naufaltaufiq66) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+This work is based on "Energetic Drink - RedBull" (https://sketchfab.com/3d-models/energetic-drink-redbull-9a271cca41144bcfb5e67d512d22e815) by Artyom (https://sketchfab.com/corych) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
