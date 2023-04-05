@@ -1,0 +1,152 @@
+fileFormatVersion: 2
+guid: 8d928a8f45934b54f9ab5606d396bc66
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: N00_001_01_Bottoms_01_CLOTH (Instance)
+    second: {fileID: 2100000, guid: bfcba49e0aa14e843bdfe9ca1abd3ef4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: N00_002_01_Shoes_01_CLOTH (Instance)
+    second: {fileID: 2100000, guid: 8c1d477300a3cc04eb759dde673ce27c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: N00_007_01_Accessory_Tie_01_CLOTH (Instance)
+    second: {fileID: 2100000, guid: e075cd373611ae2409470bdf99f39be4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: N00_007_02_Tops_01_CLOTH_01 (Instance)
+    second: {fileID: 2100000, guid: 980908c7782988746b4eada08870a048, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u30A8\u30F3\u30B8\u30F3"
+    second: {fileID: 2100000, guid: 18784a924e3e6c64ab91a4e97dcd3f5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u30A8\u30F3\u30B8\u30F3.001"
+    second: {fileID: 2100000, guid: 3e8b14b93f2b41840b900cfed7e58570, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u30BF\u30F3\u30AF"
+    second: {fileID: 2100000, guid: efdd551e374ef2d49a84c827fe3e67ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u30DE\u30C6\u30EA\u30A2\u30EB"
+    second: {fileID: 2100000, guid: 28bb37ebf531db54b8fb59138947a70f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u624B"
+    second: {fileID: 2100000, guid: a3655d21e9718ee478874dab7ba09c75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u706B"
+    second: {fileID: 2100000, guid: 7a898629128358f42a19ca3ab4261039, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u7159"
+    second: {fileID: 2100000, guid: 0c82388493c74cb4c8af481dffeba5fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u71C3\u6599"
+    second: {fileID: 2100000, guid: 0cfbecad1f95bde449eff807fef7cbc6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u8155"
+    second: {fileID: 2100000, guid: bce4cba4ceee3e6409e8f9a35f6fcc35, type: 2}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: _13
+    second: {fileID: 2800000, guid: 7031a949f7a0cd7498c5cc104a7995d7, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: _14
+    second: {fileID: 2800000, guid: b475ff69ab0445f429363fe550bd597b, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: _15
+    second: {fileID: 2800000, guid: f1d74cb39eea42c40b2b6f4bb5331e28, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: _17
+    second: {fileID: 2800000, guid: 37cdb6cbe5139b54ca0e8938df23ee0f, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: thumbnail__VRM10
+    second: {fileID: 2800000, guid: 8af05f3bb880c0a4a83d9b91b7991cba, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: "\u3064\u3084\u6D88\u3057.png"
+    second: {fileID: 2800000, guid: e9d2137118eaa2c43aa8d576e5e50d81, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: "\u30A8\u30F3\u30B8\u30F3\u672C\u4F53"
+    second: {fileID: 2800000, guid: 3021d852638e2ff46b510b3c8a31acce, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: "\u30AC\u30BD\u30EA\u30F3.png"
+    second: {fileID: 2800000, guid: bbc08c9e07495cc459a95fc19d721b0e, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: "\u30BF\u30F3\u30AF.png"
+    second: {fileID: 2800000, guid: 4f240a7f93786f54b928e52ba79e1122, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: "\u534A\u5149\u6CA2.png"
+    second: {fileID: 2800000, guid: e5d95cc55e7b6b24ea86a0d9a5b70e78, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: "\u624B"
+    second: {fileID: 2800000, guid: b9bd70618eb530d4c98d7282b0744b31, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: "\u706B.png"
+    second: {fileID: 2800000, guid: f909d16d06fc50a40842a9d27adb3d00, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: "\u71591.png"
+    second: {fileID: 2800000, guid: 79010baee9113aa44a82e008d8158d18, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: "\u8155"
+    second: {fileID: 2800000, guid: f35756897d74c2140a13d7c569d0589f, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: "\u91D1.png"
+    second: {fileID: 2800000, guid: 07f3d40575783e141ab7244bfd31e10e, type: 3}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: f66ead3390398f443aa127b741826ad9, type: 3}
+  MigrateToVrm1: 1
+  RenderPipeline: 0
