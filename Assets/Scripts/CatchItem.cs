@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -59,8 +58,13 @@ public class CatchItem : MonoBehaviour
         SoundManager.Instance.PlaySound("Pickup");
         Inventory.AddItem(GetComponentInChildren<Item>());
         playerAnimator.SetBool("Catch", false);
-        gameObject.SetActive(false);
         balloon.SetActive(false);
+
+        for (int j = 0; j < transform.childCount; j++)
+        {
+            transform.GetChild(j).gameObject.SetActive(false);
+        }
+
         yield return new WaitForSeconds(5f);
         playerInput.enabled = true;
         Destroy(gameObject);
