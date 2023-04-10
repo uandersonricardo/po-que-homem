@@ -7753,37 +7753,46 @@ MonoBehaviour:
     missValue: 0.25
     hitValue: 0.4
   dialogues:
-  - text: Primeira pergunta
+  - text: "Voc\xEA j\xE1 viu Matrix? Eu acho que minha vida mudou depois desse filme,
+      o jeito como a sociedade nos aliena e nos mant\xE9m presos como gado\u2026
+      Como a mulher de vermelho que nos distrai, com prazeres carnais sup\xE9rfluos
+      e que no fim das contas ela s\xF3 quer te usar pra ficar com seu primo que
+      faz crossfit\u2026"
     options:
-    - text: Resposta 1
-      correct: 0
-    - text: Resposta 2 (Correta)
+    - text: ...
       correct: 1
-    - text: Resposta 3
+    - text: "\xC9\u2026 Matrix \xE9 legal\u2026"
       correct: 0
-    - text: Resposta 4
+    - text: "Amigo, isso foi muito espec\xEDfico, tudo bem?"
       correct: 0
-  - text: Segunda pergunta
+    - text: MACHISTA!
+      correct: 0
+  - text: "O que \xE9 a vida sen\xE3o um palco para a insanidade? Eu vejo o mundo
+      como uma grande piada, e a cada dia eu rio mais alto. \xC9 isso que as pessoas
+      n\xE3o entendem, a vida \xE9 uma piada cruel."
     options:
-    - text: Resposta A
-      correct: 0
-    - text: Resposta B
-      correct: 0
-    - text: Resposta C
-      correct: 0
-    - text: Resposta D (Correta)
+    - text: ...
       correct: 1
-  - text: Terceira pergunta
+    - text: "Voc\xEA \xE9 meio pessimista..."
+      correct: 0
+    - text: Concordo totalmente!
+      correct: 0
+    - text: "Na\u0303o t\xF4 entendendo NADA que voc\xEA t\xE1 falando!"
+      correct: 0
+  - text: "Eu sou um agente do caos, um predador que n\xE3o vai parar at\xE9 ter
+      tudo o que eu quero. Porque eu n\xE3o tenho limites. Eu n\xE3o tenho escr\xFApulos.
+      Eu n\xE3o tenho empatia."
     options:
-    - text: Primeira resposta (Correta)
+    - text: ...
       correct: 1
-    - text: Segunda resposta
+    - text: "H\xE3.. ok..?"
       correct: 0
-    - text: Terceira resposta
+    - text: "Voc\xEA t\xE1 me assustando..."
       correct: 0
-    - text: Quarta resposta
+    - text: Concordo!
       correct: 0
-  notInterestedText: "Ent\xE3o... Nos falamos depois."
+  notInterestedText: "Por favor, cale a sua boca. O som da sua voz \xE9 como uma
+    faca em meu c\xE9rebro, me fazendo sentir dor."
   itemToGive: 1
   itemToGiveText: "Gosta de Huey Lewis and the News? Estou procurando esse disco
     h\xE1 um tempo... Encontre para mim."
@@ -11878,7 +11887,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.0147493, y: 1}
+    m_SensorSize: {x: 1.0909091, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0

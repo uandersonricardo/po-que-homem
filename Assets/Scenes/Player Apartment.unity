@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028408, g: 0.22571515, b: 0.30692363, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028386, g: 0.22571474, b: 0.30692303, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -553,40 +553,41 @@ MonoBehaviour:
     missValue: 0.25
     hitValue: 0.4
   dialogues:
-  - text: Primeira pergunta
+  - text: "N\xE3o vi voc\xEA chegando. O que posso fazer para agrad\xE1-la?"
     options:
-    - text: Resposta 1
+    - text: "N\xE3o t\xF4 precisando de nada n\xE3o."
       correct: 0
-    - text: Resposta 2 (Correta)
+    - text: "H\xE3? Quem \xE9 voc\xEA e o que t\xE1 fazendo no meu apartamento?"
+      correct: 0
+    - text: "Pode me trazer um caf\xE9?"
+      correct: 0
+    - text: "Ah, n\xE3o se preocupe comigo, estou bem hoje."
       correct: 1
-    - text: Resposta 3
-      correct: 0
-    - text: Resposta 4
-      correct: 0
-  - text: Segunda pergunta
+  - text: Certo! Devo preparar algo especial para o jantar hoje?
     options:
-    - text: Resposta A
-      correct: 0
-    - text: Resposta B
-      correct: 0
-    - text: Resposta C
-      correct: 0
-    - text: Resposta D (Correta)
+    - text: "Sei que qualquer coisa que voc\xEA preparar vai ficar incr\xEDvel."
       correct: 1
-  - text: Terceira pergunta
+    - text: "Posso te ajudar e a\xED comemos juntos. O que acha?"
+      correct: 0
+    - text: "N\xE3o estou com fome."
+      correct: 0
+    - text: "Me d\xE1 \xE2nsia s\xF3 de imaginar voc\xEA cozinhando pra mim."
+      correct: 0
+  - text: "Se estiver cansada, eu posso fazer uma massagem relaxante nos seus p\xE9s."
     options:
-    - text: Primeira resposta (Correta)
+    - text: "Eca! Claro que n\xE3o."
+      correct: 0
+    - text: "Por favor! Meus calos est\xE3o me matando."
       correct: 1
-    - text: Segunda resposta
+    - text: Talvez mais tarde, estou ocupada agora.
       correct: 0
-    - text: Terceira resposta
+    - text: "Cara, isso foi muito inapropriado. S\xF3 me deixa em paz."
       correct: 0
-    - text: Quarta resposta
-      correct: 0
-  notInterestedText: "Ent\xE3o... Nos falamos depois."
+  notInterestedText: Desculpe, lembrei que tenho uma pilha enorme de roupas sujas
+    para lavar.  Nos falamos depois.
   itemToGive: 0
-  itemToGiveText: ...
-  thankText: ...
+  itemToGiveText: "(ele parece ocupado, n\xE3o vou atrapalhar)"
+  thankText: "Ah, ol\xE1, senhorita!"
 --- !u!4 &326534856
 Transform:
   m_ObjectHideFlags: 0

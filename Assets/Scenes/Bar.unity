@@ -909,40 +909,46 @@ MonoBehaviour:
     missValue: 0.25
     hitValue: 0.4
   dialogues:
-  - text: Primeira pergunta
+  - text: Qual o teu drink favorito?
     options:
-    - text: Resposta 1
+    - text: "N\xE3o sou muito de bebida alc\xF3olica"
       correct: 0
-    - text: Resposta 2 (Correta)
+    - text: "Eu amo uma Amarula, voc\xEA nem sente o gosto do \xE1lcool."
+      correct: 0
+    - text: "Eu bebo tudo, de Samba a Whisky. N\xE3o tenho prefer\xEAncia"
+      correct: 0
+    - text: Adoro um Campari
       correct: 1
-    - text: Resposta 3
-      correct: 0
-    - text: Resposta 4
-      correct: 0
-  - text: Segunda pergunta
+  - text: "Voc\xEA faz exerc\xEDcio f\xEDsico?"
     options:
-    - text: Resposta A
+    - text: "N\xE3o tenho o costume"
       correct: 0
-    - text: Resposta B
+    - text: "Eu ando at\xE9 a TV pra mudar de canal porque o controle quebrou."
       correct: 0
-    - text: Resposta C
-      correct: 0
-    - text: Resposta D (Correta)
+    - text: Academia todo dia e pedalo nos fins de semana.
       correct: 1
-  - text: Terceira pergunta
+    - text: "N\xE3o reparou? Eu sou uma fisiculturista!"
+      correct: 0
+  - text: "Haha, top. Mas me fala, o que uma princesa como voc\xEA gosta de fazer
+      nos finais de semana?"
     options:
-    - text: Primeira resposta (Correta)
+    - text: Adoro uma baladinha sertaneja.
       correct: 1
-    - text: Segunda resposta
+    - text: "Ah, eu sou mais caseira, sabe? Gosto de maratonar s\xE9ries."
       correct: 0
-    - text: Terceira resposta
+    - text: Sou do tipo aventureira, passo meus fins de semana fazendo trilhas e
+        acampando.
       correct: 0
-    - text: Quarta resposta
+    - text: Gosto de sair com meus amigos, ir ao cinema e jantar fora.
       correct: 0
-  notInterestedText: "Ent\xE3o... Nos falamos depois."
+  notInterestedText: Preciso ir, gatinha. Estou atrasado pro show de Gusttavo Lima
+    no Villa Mix, mas se quiser me liga depois... vai que eu te dou uma chance.
   itemToGive: 2
-  itemToGiveText: ...
-  thankText: ...
+  itemToGiveText: "Velho, esse bar \xE9 horr\xEDvel. Como assim eles n\xE3o tem Red
+    Bull para vender? Ei, princesa, voc\xEA por acaso teria um a\xED para a gente
+    dividir?"
+  thankText: "Caramba, gata. Voc\xEA salvou meu rol\xEA, hein. Tava precisando tomar
+    meu whisky com Red Bull."
 --- !u!4 &619601017
 Transform:
   m_ObjectHideFlags: 0

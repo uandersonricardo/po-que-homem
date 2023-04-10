@@ -227,12 +227,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1451.7402, y: 1445.1782, z: 1091.1323}
   m_Center: {x: 738.0536, y: 725.1189, z: -545.56616}
---- !u!4 &225246419 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6409140840364130704, guid: e5b367deea733e64ca3032f8eb4a0d68,
-    type: 3}
-  m_PrefabInstance: {fileID: 1372610579}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &233140545
 GameObject:
   m_ObjectHideFlags: 0
@@ -1482,12 +1476,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 645052045}
-  m_LocalRotation: {x: -0.089761995, y: 0.89350295, z: -0.23680028, w: -0.37083814}
-  m_LocalPosition: {x: 3.16611, y: 2.459999, z: 4.113158}
+  m_LocalRotation: {x: -0.089761995, y: 0.8935029, z: -0.2368003, w: -0.3708381}
+  m_LocalPosition: {x: 3.1661105, y: 2.459999, z: 4.1131597}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 225246419}
+  m_Father: {fileID: 1372610580}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 29.323, y: 225.342, z: 1.001}
 --- !u!114 &645052047
@@ -1690,45 +1684,42 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: Otaku
   model: {fileID: -1728013695380148634, guid: d1b8570edc2a1fa44b6a17f47d7fbe10, type: 3}
-  lovemeterParameters:
-    startValue: 0.5
-    missValue: 0.25
-    hitValue: 0.4
   dialogues:
-  - text: Primeira pergunta
+  - text: "Qual \xE9 o seu anime favorito?"
     options:
-    - text: Resposta 1
+    - text: "N\xE3o vejo animes\u2026"
       correct: 0
-    - text: Resposta 2 (Correta)
+    - text: "Pok\xE9mon \xE9 um anime, n\xE9?"
+      correct: 0
+    - text: Estou entre Serial Experiments Lain e Berserk.
       correct: 1
-    - text: Resposta 3
+    - text: "Qual \xE9 o seu desodorante favorito?"
       correct: 0
-    - text: Resposta 4
-      correct: 0
-  - text: Segunda pergunta
+  - text: "Voc\xEA gosta de Shingeki no Kyojin?"
     options:
-    - text: Resposta A
+    - text: "O que \xE9 isso? \xC9 de comer?"
       correct: 0
-    - text: Resposta B
+    - text: "N\xE3o conhe\xE7o\u2026"
       correct: 0
-    - text: Resposta C
-      correct: 0
-    - text: Resposta D (Correta)
+    - text: Eu gosto muito, mas o final me desapontou.
       correct: 1
-  - text: Terceira pergunta
+    - text: Eu gosto muito, adorei o final.
+      correct: 0
+  - text: Certo... E qual seu personagem preferido de Naruto?
     options:
-    - text: Primeira resposta (Correta)
+    - text: Itachi, com certeza.
       correct: 1
-    - text: Segunda resposta
+    - text: Errh, aquele que tem um cachorro e gosta de arroz?
       correct: 0
-    - text: Terceira resposta
+    - text: Naruto? Nunca assisti.
       correct: 0
-    - text: Quarta resposta
+    - text: "Sou f\xE3 do Goku."
       correct: 0
   notInterestedText: "Ent\xE3o... Nos falamos depois."
   itemToGive: 5
-  itemToGiveText: ...
-  thankText: ...
+  itemToGiveText: "(\xB0\u30ED\xB0) ! O-oi, n\xE3o posso falar agora, eu perdi minha
+    bandana!! "
+  thankText: "SUGOI!!! Voc\xEA encontrou minha bandana. (*_ _)\u4EBA Arigatogozaimasu!"
 --- !u!4 &766853058
 Transform:
   m_ObjectHideFlags: 0
@@ -2886,6 +2877,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5b367deea733e64ca3032f8eb4a0d68, type: 3}
+--- !u!4 &1372610580 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6409140840364130704, guid: e5b367deea733e64ca3032f8eb4a0d68,
+    type: 3}
+  m_PrefabInstance: {fileID: 1372610579}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1385096924
 GameObject:
   m_ObjectHideFlags: 0

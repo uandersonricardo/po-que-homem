@@ -595,40 +595,40 @@ MonoBehaviour:
     missValue: 0.25
     hitValue: 0.4
   dialogues:
-  - text: Primeira pergunta
+  - text: "Voc\xEA tamb\xE9m curte jogos de tabuleiro?"
     options:
-    - text: Resposta 1
+    - text: "Tipo Banco Imobili\xE1rio? Acho chato."
       correct: 0
-    - text: Resposta 2 (Correta)
+    - text: "Eu gosto\u2026 meu favorito \xE9 Wingspan."
       correct: 1
-    - text: Resposta 3
+    - text: Eu amo! Jogo Detetive todo dia se deixar.
       correct: 0
-    - text: Resposta 4
+    - text: "\xC0s vezes jogo com meus primos mais novos."
       correct: 0
-  - text: Segunda pergunta
+  - text: "Voc\xEA gosta de Senhor dos An\xE9is?"
     options:
-    - text: Resposta A
+    - text: "N\xE3o tenho vontade de ver, n\xE3o gosto de filme longo"
       correct: 0
-    - text: Resposta B
+    - text: "Dormi assistindo (risada sem gra\xE7a)"
       correct: 0
-    - text: Resposta C
+    - text: Eu gosto, vi por causa de Orlando Bloom e Cate Blanchett
       correct: 0
-    - text: Resposta D (Correta)
+    - text: "Eu amo! Meu personagem favorito \xE9 Tom Bombadil"
       correct: 1
-  - text: Terceira pergunta
+  - text: "Qual personagem, de qualquer filme ou s\xE9rie, te representa mais?"
     options:
-    - text: Primeira resposta (Correta)
+    - text: "N\xE3o tem nenhum, sou \xFAnica demais."
+      correct: 0
+    - text: "Eu gosto da Wandinha\u2026"
+      correct: 0
+    - text: "A Clover de Tr\xEAs Espi\xE3s Demais \xE9 t\xE3o eu\u2026"
+      correct: 0
+    - text: Ramona Flowers (risadinha discreta)
       correct: 1
-    - text: Segunda resposta
-      correct: 0
-    - text: Terceira resposta
-      correct: 0
-    - text: Quarta resposta
-      correct: 0
   notInterestedText: "Ent\xE3o... Nos falamos depois."
   itemToGive: 0
-  itemToGiveText: "Poxa, n\xE3o estou podendo conversar agora! Perdi meu dado pra
-    jogar RPG e n\xE3o estou encontrando... Voc\xEA viu ele por a\xED?"
+  itemToGiveText: "Poxa, n\xE3o posso conversar agora! Perdi meu dado pra jogar RPG
+    e n\xE3o estou encontrando... Voc\xEA viu ele por a\xED?"
   thankText: "N\xE3o acredito que voc\xEA encontrou! Voc\xEA parece legal..."
 --- !u!4 &336080455
 Transform:
