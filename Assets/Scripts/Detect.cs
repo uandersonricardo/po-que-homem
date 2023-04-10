@@ -66,13 +66,13 @@ public class Detect : MonoBehaviour
     {
         InventoryItem inventoryItem = Inventory.GetItem(man.itemToGive);
 
-        if (inventoryItem == null)
+        if (inventoryItem == null || (man.type == "Maid" && ContactList.contacts.Count < 6 ))
         {
             talkUI.StartTalking(new List<string> { man.itemToGiveText }, man.type);
         }
-        else if (!inventoryItem.isGiven)
+        else if (!inventoryItem.isGiven || (man.type == "Maid" && ContactList.contacts.Count == 6))
         {
-            Inventory.GiveItem(inventoryItem);
+            if (!inventoryItem.isGiven) Inventory.GiveItem(inventoryItem);
             talkUI.StartTalking(new List<string> { man.thankText }, man.type);
 
             if (playSource) {
