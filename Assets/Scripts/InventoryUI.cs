@@ -15,14 +15,15 @@ public class InventoryUI : MonoBehaviour
 
     public void UpdateItems()
     {
-        List<InventoryItem> currentItems = Inventory.items.FindAll(item => !item.isGiven);
-
-        for (int i = 0; i < inventorySize; i++)
+        for (int i = 0, j = 0; i < inventorySize && j < inventorySize; i++)
         {
-            if (currentItems.Count > i) {
-                inventoryItemsUI[i].SetItem(Inventory.items[i]);
-            } else {
-                inventoryItemsUI[i].RemoveItem();
+            if (Inventory.items.Count > i && !Inventory.items[i].isGiven)
+            {
+                inventoryItemsUI[j++].SetItem(Inventory.items[i]);
+            }
+            else
+            {
+                inventoryItemsUI[j].RemoveItem();
             }
         }
     }
