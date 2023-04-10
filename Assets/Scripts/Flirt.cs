@@ -71,7 +71,7 @@ public class Flirt : MonoBehaviour
         }
         
         selectedMan = man;
-        lovemeter.value = man.lovemeterParameters.startValue;
+        lovemeter.value = LovemeterParameters.startValue;
         SetDialogue(0);
         FindObjectOfType<PlayerInput>().enabled = false;
         gameObject.SetActive(true);
@@ -130,11 +130,11 @@ public class Flirt : MonoBehaviour
         
         if (dialogue.options[option].correct)
         {
-            lovemeter.value = Mathf.Clamp01(lovemeter.value + selectedMan.lovemeterParameters.hitValue);
+            lovemeter.value = Mathf.Clamp01(lovemeter.value + LovemeterParameters.hitValue);
         }
         else
         {
-            lovemeter.value = Mathf.Clamp01(lovemeter.value - selectedMan.lovemeterParameters.missValue);
+            lovemeter.value = Mathf.Clamp01(lovemeter.value - LovemeterParameters.missValue);
         }
 
         if (lovemeter.value >= 1)
