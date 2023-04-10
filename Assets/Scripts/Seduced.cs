@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
@@ -39,11 +38,12 @@ public class Seduced : MonoBehaviour
         SceneManager.LoadScene(previousScene);
     }
 
-    public static void Show(GameObject man, string type, int scene)
+    public static void Show(GameObject man, string type, int scene, Vector3 currentPosition)
     {
         character = man;
         message = type + " conquistado!";
         previousScene = scene;
+        Man.SetSeducedPosition(currentPosition);
         SceneManager.LoadScene("Seduced");
     }
 }

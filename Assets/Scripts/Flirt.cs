@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -139,9 +138,10 @@ public class Flirt : MonoBehaviour
 
         if (lovemeter.value >= 1)
         {
+            GameObject player = GameObject.FindWithTag("Player");
             ContactList.AddContact(selectedMan);
             SoundManager.Instance.PlaySound("Completed");
-            Seduced.Show(selectedMan.model, selectedMan.type, UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
+            Seduced.Show(selectedMan.model, selectedMan.type, UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex, player.transform.position);
             ExitFlirting(false);
         }
         else if (lovemeter.value <= 0 || currentDialogue >= selectedMan.dialogues.Count - 1)
