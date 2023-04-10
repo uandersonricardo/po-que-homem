@@ -59,7 +59,7 @@ public class CatchItem : MonoBehaviour
         SoundManager.Instance.PlaySound("Pickup");
         Inventory.AddItem(GetComponentInChildren<Item>());
         playerAnimator.SetBool("Catch", false);
-        gameObject.GetComponentInChildren<MeshRenderer>().enabled = false;
+        gameObject.SetActive(false);
         balloon.SetActive(false);
         yield return new WaitForSeconds(5f);
         playerInput.enabled = true;
