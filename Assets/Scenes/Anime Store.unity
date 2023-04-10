@@ -2762,6 +2762,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3056539643748998384, guid: e5b367deea733e64ca3032f8eb4a0d68,
         type: 3}
+      propertyPath: m_Name
+      value: Player Follow Camera
+      objectReference: {fileID: 0}
+    - target: {fileID: 3056539643748998384, guid: e5b367deea733e64ca3032f8eb4a0d68,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
