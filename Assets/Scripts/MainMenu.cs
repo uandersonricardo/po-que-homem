@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
@@ -76,7 +74,7 @@ public class MainMenu : MonoBehaviour
         
         if (option == 0) {
             // Começa
-            UnityEngine.SceneManagement.SceneManager.LoadScene("Playground");
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Backstory");
         } else if (option == 1) {
             // Controles
         } else if (option == 2) {
