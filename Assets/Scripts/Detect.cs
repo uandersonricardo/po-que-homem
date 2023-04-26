@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -70,7 +69,7 @@ public class Detect : MonoBehaviour
         {
             talkUI.StartTalking(new List<string> { man.itemToGiveText }, man.type);
         }
-        else if (!inventoryItem.isGiven || (man.type == "Maid" && ContactList.contacts.Count == 6))
+        else if (!inventoryItem.isGiven)
         {
             if (!inventoryItem.isGiven) Inventory.GiveItem(inventoryItem);
             talkUI.StartTalking(new List<string> { man.thankText }, man.type);

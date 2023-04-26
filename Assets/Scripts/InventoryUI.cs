@@ -1,8 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.UI;
 
 public class InventoryUI : MonoBehaviour
 {
@@ -30,16 +27,22 @@ public class InventoryUI : MonoBehaviour
 
     public void Show()
     {
+        if (UIController.Instance.GetIsShowing()) return;
+
         FindObjectOfType<PlayerInput>().enabled = false;
         gameObject.SetActive(true);
         UpdateItems();
         SelectItem(0);
+        UIController.Instance.SetIsShowing(true);
     }
 
     public void Hide()
     {
+        if (!UIController.Instance.GetIsShowing()) return;
+
         FindObjectOfType<PlayerInput>().enabled = true;
         gameObject.SetActive(false);
+        UIController.Instance.SetIsShowing(false);
     }
 
     void Update()

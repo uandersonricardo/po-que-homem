@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using Cinemachine;
@@ -57,20 +56,26 @@ public class Album : MonoBehaviour
 
     void OpenAlbum()
     {
+        if (UIController.Instance.GetIsShowing()) return;
+
         SoundManager.Instance.PlaySound("Transition");
         SetAlbumCamera();
         opened = true;
         FindObjectOfType<PlayerInput>().enabled = false;
         StartCoroutine(OpenAlbumCoroutine());
+        UIController.Instance.SetIsShowing(true);
     }
 
     void CloseAlbum()
     {
+        if (!UIController.Instance.GetIsShowing()) return;
+
         SoundManager.Instance.PlaySound("Transition");
         SetDefaultCamera();
         opened = false;
         FindObjectOfType<PlayerInput>().enabled = true;
         StartCoroutine(CloseAlbumCoroutine());
+        UIController.Instance.SetIsShowing(false);
     }
 
     IEnumerator OpenAlbumCoroutine()

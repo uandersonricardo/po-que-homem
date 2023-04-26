@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -12,6 +10,8 @@ public class UIController : MonoBehaviour
     private Talk talkUI;
     private InventoryUI inventoryUI;
     private ConfirmLocation confirmLocationUI;
+    private PauseMenu pauseMenuUI;
+    private bool isShowing = false;
 
     private void Awake()
     {
@@ -28,6 +28,7 @@ public class UIController : MonoBehaviour
         inventoryUI = GetComponentInChildren<InventoryUI>(true);
         flirtUI = GetComponentInChildren<Flirt>(true);
         talkUI = GetComponentInChildren<Talk>(true);
+        pauseMenuUI = GetComponentInChildren<PauseMenu>(true);
     }
 
     void Start()
@@ -37,7 +38,6 @@ public class UIController : MonoBehaviour
 
     void Update()
     {
-        // Apertou I => abre/fecha o invent�rio
         if (inventoryUI.isActiveAndEnabled == false && Keyboard.current.iKey.wasPressedThisFrame)
         {
             inventoryUI.Show();
@@ -45,6 +45,14 @@ public class UIController : MonoBehaviour
         else if (inventoryUI.isActiveAndEnabled == true && (Keyboard.current.iKey.wasPressedThisFrame || Keyboard.current.escapeKey.wasPressedThisFrame))
         {
             inventoryUI.Hide();
+        }
+        else if (pauseMenuUI.isActiveAndEnabled == false && Keyboard.current.escapeKey.wasPressedThisFrame)
+        {
+            pauseMenuUI.Show();
+        }
+        else if (pauseMenuUI.isActiveAndEnabled == true && Keyboard.current.escapeKey.wasPressedThisFrame)
+        {
+            pauseMenuUI.Hide();
         }
     }
 
@@ -66,5 +74,20 @@ public class UIController : MonoBehaviour
     public ConfirmLocation GetConfirmLocationUI()
     {
         return confirmLocationUI;
+    }
+
+    public PauseMenu GetPauseMenuUI()
+    {
+        return pauseMenuUI;
+    }
+
+    public bool GetIsShowing()
+    {
+        return isShowing;
+    }
+
+    public void SetIsShowing(bool isShowing)
+    {
+        this.isShowing = isShowing;
     }
 }

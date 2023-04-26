@@ -35,15 +35,19 @@ public class Seduced : MonoBehaviour
     IEnumerator BackToPreviousScene()
     {
         yield return new WaitForSeconds(5);
+        UIController.Instance.SetIsShowing(false);
         SceneManager.LoadScene(previousScene);
     }
 
     public static void Show(GameObject man, string type, int scene, Vector3 currentPosition)
     {
+        if (UIController.Instance.GetIsShowing()) return;
+
         character = man;
         message = type + " conquistado!";
         previousScene = scene;
         Man.SetSeducedPosition(currentPosition);
         SceneManager.LoadScene("Seduced");
+        UIController.Instance.SetIsShowing(true);
     }
 }

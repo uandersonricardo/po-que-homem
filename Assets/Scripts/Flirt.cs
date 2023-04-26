@@ -65,6 +65,8 @@ public class Flirt : MonoBehaviour
 
     public void StartFlirting(Man man, bool playSound = true)
     {
+        if (UIController.Instance.GetIsShowing()) return;
+
         if (playSound) {
             SoundManager.Instance.PlaySound("Transition");
         }
@@ -74,6 +76,7 @@ public class Flirt : MonoBehaviour
         SetDialogue(0);
         FindObjectOfType<PlayerInput>().enabled = false;
         gameObject.SetActive(true);
+        UIController.Instance.SetIsShowing(true);
     }
 
     void SelectButton(int button, bool playSound = true)
@@ -162,6 +165,8 @@ public class Flirt : MonoBehaviour
 
     void ExitFlirting(bool playSound = true)
     {
+        if (!UIController.Instance.GetIsShowing()) return;
+
         if (playSound) {
             SoundManager.Instance.PlaySound("Transition");
         }
@@ -169,5 +174,7 @@ public class Flirt : MonoBehaviour
         gameObject.SetActive(false);
         FindObjectOfType<PlayerInput>().enabled = true;
         FindObjectOfType<Detect>().SetDefaultCamera();
+
+        UIController.Instance.SetIsShowing(false);
     }
 }

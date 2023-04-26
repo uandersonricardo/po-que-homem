@@ -1,8 +1,6 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.UI;
 using TMPro;
 
 public class Talk : MonoBehaviour
@@ -33,6 +31,8 @@ public class Talk : MonoBehaviour
 
     public void StartTalking(List<string> phraseList, string characterName, bool playSound = true)
     {
+        if (UIController.Instance.GetIsShowing()) return;
+
         if (playSound) {
             SoundManager.Instance.PlaySound("Transition");
         }
@@ -42,6 +42,7 @@ public class Talk : MonoBehaviour
         SetPhrase(0);
         FindObjectOfType<PlayerInput>().enabled = false;
         gameObject.SetActive(true);
+        UIController.Instance.SetIsShowing(true);
     }
 
     void SetPhrase(int phrase)
@@ -65,9 +66,12 @@ public class Talk : MonoBehaviour
 
     void ExitTalking()
     {
+        if (!UIController.Instance.GetIsShowing()) return;
+
         SoundManager.Instance.PlaySound("Transition");
         gameObject.SetActive(false);
         FindObjectOfType<PlayerInput>().enabled = true;
         FindObjectOfType<Detect>().SetDefaultCamera();
+        UIController.Instance.SetIsShowing(false);
     }
 }
