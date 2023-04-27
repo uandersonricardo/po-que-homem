@@ -1763,7 +1763,7 @@ MonoBehaviour:
   itemToGive: 5
   itemToGiveText: "(\xB0\u30ED\xB0) ! O-oi, n\xE3o posso falar agora, eu perdi minha
     bandana!! "
-  thankText: "SUGOI!!! Voc\xEA encontrou minha bandana. (*_ _)\u4EBA Arigatogozaimasu!"
+  thankText: "SUGOI!!! Voc\xEA encontrou minha bandana. (*_ _) Arigatogozaimasu!"
 --- !u!4 &766853058
 Transform:
   m_ObjectHideFlags: 0
