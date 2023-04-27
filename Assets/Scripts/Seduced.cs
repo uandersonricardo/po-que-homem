@@ -46,7 +46,6 @@ public class Seduced : MonoBehaviour
         character = man;
         message = type + " conquistado!";
         previousScene = scene;
-        Man.SetSeducedPosition(currentPosition);
         SceneManager.LoadScene("Seduced");
         UIController.Instance.SetIsShowing(true);
     }

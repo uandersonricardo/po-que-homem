@@ -590,10 +590,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: Nerdola
   model: {fileID: -1728013695380148634, guid: e4828a3c65a549243b5ce9cc52b4f4fd, type: 3}
-  lovemeterParameters:
-    startValue: 0.5
-    missValue: 0.25
-    hitValue: 0.4
   dialogues:
   - text: "Voc\xEA tamb\xE9m curte jogos de tabuleiro?"
     options:
@@ -1010,6 +1006,50 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: -3956505258223990651, guid: f4b47759e8c784446a7193e7ca646ee9,
     type: 3}
+--- !u!1 &591508914
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 591508916}
+  - component: {fileID: 591508915}
+  m_Layer: 0
+  m_Name: Spawn Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &591508915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 591508914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 800f68bb8b920c44faded1d52054e872, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &591508916
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 591508914}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -15.090342, y: 4.1749887, z: 96.43837}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &591984796
 PrefabInstance:
   m_ObjectHideFlags: 0

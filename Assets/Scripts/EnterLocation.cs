@@ -41,6 +41,7 @@ public class EnterLocation : MonoBehaviour
             {
                 GameObject player = GameObject.FindWithTag("Player");
                 SpawnPlayer.SetSpawnPlayground(player.transform.position);
+                SpawnPlayer.SetOtherSpawn(Vector3.zero);
             }
 
             confirmLocation.gameObject.SetActive(true);

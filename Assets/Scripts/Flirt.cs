@@ -141,11 +141,13 @@ public class Flirt : MonoBehaviour
 
         if (lovemeter.value >= 1)
         {
+            ExitFlirting(false);
             GameObject player = GameObject.FindWithTag("Player");
             ContactList.AddContact(selectedMan);
             SoundManager.Instance.PlaySound("Completed");
+            if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "Playground") SpawnPlayer.SetSpawnPlayground(player.transform.position);
+            else SpawnPlayer.SetOtherSpawn(player.transform.position);
             Seduced.Show(selectedMan.model, selectedMan.type, UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex, player.transform.position);
-            ExitFlirting(false);
         }
         else if (lovemeter.value <= 0 || currentDialogue >= selectedMan.dialogues.Count - 1)
         {

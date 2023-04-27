@@ -10,16 +10,9 @@ public class Man : MonoBehaviour
     public ItemType itemToGive;
     public string itemToGiveText;
     public string thankText;
-    public static Vector3? previousSeducedPosition = null;
 
     private void Awake()
     {
-        if (previousSeducedPosition != null)
-        {
-            GameObject player = GameObject.FindWithTag("Player");
-            player.transform.position = (Vector3)previousSeducedPosition;
-            previousSeducedPosition = null;
-        }
     }
 
     // Start is called before the first frame update
@@ -32,10 +25,5 @@ public class Man : MonoBehaviour
     void Update()
     {
         
-    }
-
-    public static void SetSeducedPosition(Vector3 position)
-    {
-        previousSeducedPosition = position;
     }
 }
