@@ -1384,7 +1384,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   balloon: {fileID: 1897612237}
-  text: '[...]'
+  text: "(Ele est\xE1 falando sobre juiciness em jogos)"
   characterName: "\xC1tila"
 --- !u!65 &632735312
 BoxCollider:
@@ -2290,7 +2290,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   balloon: {fileID: 8162101}
-  text: '[...]'
+  text: "(Ele est\xE1 falando sobre juiciness em jogos)"
   characterName: Geber
 --- !u!65 &1273191155
 BoxCollider:
